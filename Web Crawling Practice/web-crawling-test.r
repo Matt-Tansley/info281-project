@@ -43,12 +43,9 @@ get_titles <- function(html){
     last_element <- tail(page_nums, n=1)
     
     # Initialise vector
-    article_titles <- vector()
+    article_titles <- get_titles(url)
     
     while(last_element == "» Next"){
-      # Read article titles, using bespoke function. 
-      article_titles <- append(article_titles, get_titles(url))
-      article_titles
       
       # Get current page.
       current_page <- url %>%
@@ -60,7 +57,10 @@ get_titles <- function(html){
       next_page <- current_page + 1
       
       # Update url.
-      url <- paste0('https://www.nngroup.com/articles/?page=', next_page)
+      url <- html(paste0('https://www.nngroup.com/articles/?page=', next_page))
+      
+      # Read article titles, using bespoke function. 
+      article_titles <- append(article_titles, get_titles(url))
       
       # Read list of page numbers. 
       page_nums <- url %>%
