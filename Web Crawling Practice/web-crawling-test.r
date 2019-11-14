@@ -36,7 +36,7 @@ get_titles <- function(html){
     
     # Read list of page numbers. 
     page_nums <- url %>%
-      html_nodes(".article-pager a") %>%
+      html_nodes("#recentTab .article-pager a") %>%
       html_text(trim = TRUE)
     
     # Get last element in vector. 
@@ -64,7 +64,7 @@ get_titles <- function(html){
       
       # Read list of page numbers. 
       page_nums <- url %>%
-        html_nodes(".article-pager a") %>%
+        html_nodes("#recentTab .article-pager a") %>%
         html_text(trim = TRUE)
       
       # Get last element in vector. 
