@@ -13,6 +13,7 @@ data_wide <- spread(data_long, key = "entity", value = "confidence")
 head(data_wide)
 
 
+# Using time data. 
 time_df_long <- tibble(id = 1:10,
                        measure1_1 = rnorm(1:10),
                        measure1_2 = rnorm(1:10),
