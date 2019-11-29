@@ -15,17 +15,19 @@ m
 
 
 # Uses providerTiles to change default map theme. 
-m <- leaflet() %>%
+
+m <- leaflet() %>% 
   # Add base map. 
+  #addTiles() %>%
   addProviderTiles(providers$Hydda.Full) %>%
   # Center over NZ, using coordinates.
   setView(lat = -40.9006, lng = 174.8860, zoom = 4) %>%
-  addPolygons(data = nz_electorates, weight = 3, color = 'red')
+  # Add polygons, using shapefile to divide by region.
+  addPolygons(data = nz_regions, color = "#FFFFFF", weight = 1, smoothFactor = 0.5,
+              opacity = 1.0, fillOpacity = 0.5,
+              fillColor = 'yellow', label = nz_regions@data$REGC2018_1)
 m
 
+nz_regions <- readOGR("data/statsnzregional-council-2018-generalised-SHP (1)/regional-council-2018-generalised.shp")
 
-# Read NZ 2020 General Electorate shapefile
-# Seems to read fine, but doesn't work when I try to put it 
-# on the map.
-nz_electorates <- readOGR(
-  "data/statsnzproposed-general-electorates-2020-SHP (1)/proposed-general-electorates-2020.shp")
+hawkes <- readOGR("C:/Users/30mat/Documents/lds-hawkes-bay-03m-rural-aerial-photos-index-tiles-2014-2015-SHP/hawkes-bay-03m-rural-aerial-photos-index-tiles-2014-2015.shp")
