@@ -1,6 +1,8 @@
 # Load libraries.
 library(leaflet)
 library(rgdal)
+library(tidyverse)
+library(viridis)
 
 # Basic map.
 m <- leaflet() %>%
@@ -37,9 +39,26 @@ hawkes <- readOGR("C:/Users/30mat/Documents/lds-hawkes-bay-03m-rural-aerial-phot
 # Reading InternetNZ Data.
 # Unfortunately I cannot make this data public, so it will
 # not be uploaded to GitHub. 
+internet_access <- read_csv("C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/AIMS_ADDRESS_POSITION_NBBM_OUT_CSV.csv")
 
 # Reading AIMS Address Position
 address_position <- read_csv("C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/lds-new-zealand-15layers-CSV/aims-address-position/aims-address-position.csv")
+
+sample_addresses <- head(address_position, 100)
+
+view(head(address_position, 10))
+view(head(internet_access, 10))
+
+# Combine data sets 
+combined_data <- full_join(internet_access, address_position, 
+                           by = "address_id")
+
+# Select specific columns. 
+selected_data <- combined_data[-c(3,4,5,8,9,10,13,14,15,18,19,20,23,24,25,33)]
+# Rename columns. 
+colnames(selected_data)[23:24] <- c("longitude", "latitude")               
+        
+view(head(selected_data, 10))
 
 # Adding circle markers. 
 m <- leaflet() %>% 
@@ -50,6 +69,9 @@ m <- leaflet() %>%
               opacity = 1, fillOpacity = 1,
               fillColor = viridis(nrow(nz_regions@data)), 
               label = nz_regions@data$REGC2018_1) %>%
-  addCircleMarkers(lat = address_position$shape_Y, 
-                   lng = address_position$shape_X)
+  addCircleMarkers(lat = sample_addresses$shape_Y, 
+                   lng = sample_addresses$shape_X,
+                   color = 'red',
+                   weight = 1,
+                   radius = 5)
 m
