@@ -60,6 +60,9 @@ colnames(selected_data)[23:24] <- c("longitude", "latitude")
         
 view(head(selected_data, 10))
 
+# Write wrangled data to csv. 
+write_csv(selected_data,"C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/wrangled_and_combined_internet_data.csv")
+
 # Adding circle markers. 
 m <- leaflet() %>% 
   addProviderTiles(providers$CartoDB.VoyagerLabelsUnder) %>%
@@ -75,3 +78,5 @@ m <- leaflet() %>%
                    weight = 1,
                    radius = 5)
 m
+
+# test comment
