@@ -98,49 +98,6 @@ colnames(address_markers)[1:10] <- c("adsl",
                                      "wireless_availability") 
 
 write_csv(address_markers,"C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/wrangled_and_combined_internet_data.csv")
-# Re-read
-address_markers <- read_csv("C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/wrangled_and_combined_internet_data.csv")
-view(head(address_markers, 20))
-sample_markers <- head(address_markers, 20)
-
-adsl <- data.frame(longitude=double(), latitude=double())  
-cable <- data.frame(longitude=double(), latitude=double()) 
-fibre <- data.frame(longitude=double(), latitude=double())
-vdsl <- data.frame(longitude=double(), latitude=double())
-wireless <- data.frame(longitude=double(), latitude=double()) 
-
-# Sample code to get lat and lng from a row and add it to
-# another data.frame. 
-first_row <- sample_markers[1,]
-new_row <- data.frame(longitude = first_row$longitude, latitude = first_row$latitude)
-adsl <- rbind(adsl, new_row)
-
-# Convert data to a long format
-data_long <- gather(address_markers, key = "connection", 
-                    value = "availability", 
-                    c('adsl','cable','fibre','vdsl','wireless'))
-view(head(data_long,20))
-
-# For loop for sort coordinates into groups based on 
-# what internet connections are available. 
-for(i in 1:nrow(data_long)){
-  if(data_long[i,21] == 1){
-    type <- data_long[i,20]
-    long <- data_long[i,18]
-    lati <- data_long[i,19]
-    if(type == "adsl"){
-      adsl <- rbind(adsl,c(long,lati))  
-    }else if(type == "cable"){
-      cable <- rbind(cable,c(long,lati))
-    }else if(type == "fibre"){
-      fibre <- rbind(fibre,c(long,lati))
-    }else if(type == "vdsl"){
-      vdsl <- rbind(vdsl,c(long,lati))
-    }else if(type == "wireless"){
-      wireless <- rbind(wireless,c(long,lati))
-    }
-  }
-}
   
 # Adding Markers --------------------------------------
 
@@ -152,7 +109,6 @@ address_markers <- read_csv("C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 
 view(head(address_markers, 20))
 sample_markers <- head(address_markers, 20)
 
-# Customised map. 
 m <- leaflet() %>% 
   addProviderTiles(providers$CartoDB.VoyagerLabelsUnder) %>%
   setView(lat = -40.9006, lng = 174.8860, zoom = 4) %>%
@@ -177,15 +133,22 @@ library(mapview)
 library(leaflet)
 library(leafgl)
 library(sf)
+library(colourvalues)
 
 # Get a data frame of just lat/lng coords.
 coords_df <- address_markers[23:24]
 
+# Remove NA values. 
 coords_nas_removed <- na.omit(coords_df)
 
 coords_sf = st_as_sf(coords_nas_removed, 
                      coords = c("longitude", "latitude"), 
                      crs = 4326)
+
+options(viewer = NULL) # view in browser
+
+cols = colour_values_rgb(coords_nas_removed$longitude, 
+                         include_alpha = FALSE) / 255
 
 m <- leaflet() %>% 
   addProviderTiles(providers$CartoDB.VoyagerLabelsUnder) %>%
@@ -194,7 +157,8 @@ m <- leaflet() %>%
               weight = 1, smoothFactor = 1, opacity = 1,
               label = nz_regions@data$REGC2018_1) %>%
   # Adding points.
-  addGlPoints(data = coords_sf, group = "coords") 
+  addGlPoints(data = coords_sf, group = "coords",
+              color = cols) 
 m
 
 

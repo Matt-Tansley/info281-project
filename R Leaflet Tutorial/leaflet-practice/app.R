@@ -31,8 +31,7 @@ ui <- fluidPage(
         ),
 
         mainPanel(
-            leafletOutput("internet_map"),
-
+            leafglOutput("internet_map"),
         )
     )
 )
@@ -40,30 +39,26 @@ ui <- fluidPage(
 # Define server logic required to draw a histogram
 server <- function(input, output) {
     
-    #output$internet_map <- renderLeaflet({
+    output$internet_map <- renderLeaflet({
         
         # Load data based on user input choice. 
-        connection_data <- switch(input$connection,
-                                  'ADSL' = 
-                                  'Cable',
-                                  'Fibre',
-                                  'VDSL',
-                                  'Wireless'
-                                  )
+        #connection_data <- switch(input$connection,
+        #                          'ADSL' = 
+        #                          'Cable',
+        #                          'Fibre',
+        #                          'VDSL',
+        #                          'Wireless'
+        #                          )
         
         leaflet() %>% 
         addProviderTiles(providers$CartoDB.VoyagerLabelsUnder) %>%
         setView(lat = -40.9006, lng = 174.8860, zoom = 4) %>%
         addPolygons(data = nz_regions, color = "#FFFFFF", 
-                    weight = 1, smoothFactor = 1,
-                    opacity = 1, fillOpacity = 1,
-                    fillColor = viridis(nrow(nz_regions@data)), 
+                    weight = 1, smoothFactor = 1, opacity = 1,
                     label = nz_regions@data$REGC2018_1) %>%
-        addMarkers(data = sample_markers, 
-                   lat = sample_markers$latitude, 
-                   lng = sample_markers$longitude,
-                   clusterOptions = markerClusterOptions()
-        )
+        # Adding points.
+        addGlPoints(data = coords_sf, color='red',
+                    group = "coords") 
     })
 }
 
