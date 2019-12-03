@@ -57,7 +57,7 @@ server <- function(input, output) {
                     weight = 1, smoothFactor = 1, opacity = 1,
                     label = nz_regions@data$REGC2018_1) %>%
         # Adding points.
-        addGlPoints(data = coords_sf, color='red',
+        addGlPoints(data = coords_sf, color=cols,
                     group = "coords") 
     })
 }

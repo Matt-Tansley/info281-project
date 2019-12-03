@@ -35,8 +35,6 @@ m
 # Reading shapefiles.
 nz_regions <- readOGR("data/statsnzregional-council-2018-generalised-SHP (1)/regional-council-2018-generalised.shp")
 
-hawkes <- readOGR("C:/Users/30mat/Documents/lds-hawkes-bay-03m-rural-aerial-photos-index-tiles-2014-2015-SHP/hawkes-bay-03m-rural-aerial-photos-index-tiles-2014-2015.shp")
-
 # Reading InternetNZ Data.
 # Unfortunately I cannot make this data public, so it will
 # not be uploaded to GitHub. 
@@ -57,7 +55,7 @@ combined_data <- full_join(internet_access, address_position,
 # Select specific columns. 
 selected_data <- combined_data[-c(3,4,5,8,9,10,13,14,15,18,19,20,23,24,25,33)]
 # Rename columns. 
-colnames(selected_data)[23:24] <- c("longitude", "latitude")               
+colnames(selected_data)[23:24] <- c("longitude", "latitude")
         
 view(head(selected_data, 10))
 
@@ -135,8 +133,11 @@ library(leafgl)
 library(sf)
 library(colourvalues)
 
+# Load data.
+address_markers <- read_csv("C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/wrangled_and_combined_internet_data.csv")
+
 # Get a data frame of just lat/lng coords.
-coords_df <- address_markers[23:24]
+coords_df <- address_markers %>% select(20,23,24)
 
 # Remove NA values. 
 coords_nas_removed <- na.omit(coords_df)
@@ -147,7 +148,7 @@ coords_sf = st_as_sf(coords_nas_removed,
 
 options(viewer = NULL) # view in browser
 
-cols = colour_values_rgb(coords_nas_removed$longitude, 
+cols = colour_values_rgb(coords_nas_removed$address_type_id, 
                          include_alpha = FALSE) / 255
 
 m <- leaflet() %>% 
@@ -161,5 +162,10 @@ m <- leaflet() %>%
               color = cols) 
 m
 
+
+# Wrangling Data Further ------------------------------
+colnames(address_markers)[20] <- c("address_type_id")
+
+write_csv(address_markers,"C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/wrangled_and_combined_internet_data.csv")
 
 
