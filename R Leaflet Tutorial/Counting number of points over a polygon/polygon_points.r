@@ -49,10 +49,21 @@ plot(nz_regions)
 a_few_points <- SpatialPointsDataFrame(coords = head(sp_dataframe,10),
                                        data = data.frame(id = 1:10),
                                        proj4string = CRS("+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84")) 
+
+# All data points
+sp_dataframe <- SpatialPointsDataFrame(coords = xy,
+                                       data = coords_nas_removed,
+                                       proj4string = CRS("+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0"))
+
+
 plot(a_few_points, col="red" , add=TRUE)
+
 
 # Check which region each data point is over
 which_region <- over(a_few_points, nz_regions)
 table(which_region$REGC2018_1)
+
+which_region_v2 <- over(sp_dataframe, nz_regions)
+table(which_region_v2$REGC2018_1)
 
 
