@@ -7,6 +7,7 @@
 #    http://shiny.rstudio.com/
 #
 
+# Load libraries
 library(shiny)
 library(shinydashboard)
 library(leaflet)
@@ -14,6 +15,46 @@ library(leafgl)
 library(sf)
 library(rmapshaper)
 library(viridis)
+
+# Load data
+# Internet Markers
+#all_connections <- read_csv("C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/connections_data/all_connections.csv") %>% 
+#    na.omit() %>%
+#    st_as_sf(coords = c("longitude", "latitude"), 
+#             crs = 4326)
+#adsl <- read_csv("C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/connections_data/adsl.csv") %>% 
+#    na.omit() %>%
+#    st_as_sf(coords = c("longitude", "latitude"), 
+#             crs = 4326)
+#cable <- read_csv("C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/connections_data/cable.csv") %>% 
+#    na.omit() %>%
+#    st_as_sf(coords = c("longitude", "latitude"), 
+#             crs = 4326)
+#fibre <-read_csv("C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/connections_data/fibre.csv") %>% 
+#    na.omit() %>%
+#    st_as_sf(coords = c("longitude", "latitude"), 
+#             crs = 4326) 
+#vdsl <-read_csv("C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/connections_data/vdsl.csv") %>% 
+#    na.omit() %>%
+#    st_as_sf(coords = c("longitude", "latitude"), 
+#             crs = 4326)
+#wireless <- read_csv("C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/connections_data/wireless.csv") %>% 
+#    na.omit() %>%
+#    st_as_sf(coords = c("longitude", "latitude"), 
+#             crs = 4326)
+#
+### Shapefile Boundaries
+#nz_regions <-
+#    st_read(dsn = "data/statsnzregional-council-2018-generalised-SHP (1)/regional-council-2018-generalised.shp")%>% 
+#    st_transform(crs="+init=epsg:4326") %>% 
+#    ms_simplify(.)
+#names(st_geometry(nz_regions)) = NULL 
+#    
+#nz_urban_rural <- 
+#    st_read(dsn = "data/statsnzurban-rural-2018-generalised-SHP/urban-rural-2018-generalised.shp")%>% 
+#    st_transform(crs="+init=epsg:4326") %>% 
+#    ms_simplify(.)
+#names(st_geometry(nz_urban_rural)) = NULL
 
 # Define UI for application
 ui <- dashboardPage(
@@ -26,13 +67,14 @@ ui <- dashboardPage(
                 box(width = NULL,
                     radioButtons('connection',
                                  'Type of Internet Connection',
-                                 choices = list('ADSL',
+                                 choices = list('All Connections',
+                                                'ADSL',
                                                 'Cable',
                                                 'Fibre',
                                                 'VDSL',
                                                 'Wireless'
                                  ),
-                                 selected = "ADSL"
+                                 selected = "All Connections"
                     )
                 ),
                 
@@ -40,7 +82,7 @@ ui <- dashboardPage(
                     selectInput('shapefile',
                                 "Shapefile",
                                 choices = list('Regions',
-                                               'Rural/Urban'),
+                                               'Urban/Rural'),
                                 selected = 'Regions'
                     ),
                     
@@ -75,27 +117,40 @@ server <- function(input, output) {
     m_data <- reactive({
         switch(input$shapefile,
                "Regions" = nz_regions, 
-               "Rural/Urban" = shapename
+               "Urban/Rural" = nz_urban_rural
         )        
     })
     
     m_label <- reactive({
-        switch(input$shapefile,
-               "Regions" = nz_regions@data$REGC2018_1, 
-               "Rural/Urban" = shapename$IUR2018__1
-        )
+                switch(input$shapefile,
+                "Regions" = nz_regions$REGC2018_1, 
+                "Urban/Rural" = nz_urban_rural$IUR2018__1
+                )
     })
     
+    m_connection <- reactive({
+                    switch(input$connection,
+                            'All Connections' = all_connections,
+                            'ADSL' = adsl,
+                            'Cable' = cable,
+                            'Fibre' = fibre,
+                            'VDSL' = vdsl,
+                            'Wireless' = wireless
+                            )
+    })
+    
+   #m_cols <- reactive({
+   #    switch(input$connection,
+   #           'All Connections' = cbind(0, 0.2, 1),
+   #           'ADSL' = cbind(0, 0.2, 1),
+   #           'Cable' = cbind(0, 0.2, 1),
+   #           'Fibre' = cbind(0, 0.2, 1),
+   #           'VDSL' = cbind(0, 0.2, 1),
+   #           'Wireless' = cbind(0, 0.2, 1)
+   #           )
+   #})
+    
     output$internet_map <- renderLeaflet({
-        
-        # Load data based on user input choice. 
-        #connection_data <- switch(input$connection,
-        #                          'ADSL' = 
-        #                          'Cable',
-        #                          'Fibre',
-        #                          'VDSL',
-        #                          'Wireless'
-        #                          )
         
         leaflet() %>% 
         addProviderTiles(providers$CartoDB.VoyagerLabelsUnder) %>%
@@ -106,7 +161,12 @@ server <- function(input, output) {
                     opacity = 1,
                     data = m_data(),
                     label = m_label()
-        )
+        ) %>%
+        # Adding points.
+        addGlPoints(data = m_connection(), 
+                    group = "coords",
+                    color = cbind(0, 0.2, 1)
+        ) 
     })
 }
 

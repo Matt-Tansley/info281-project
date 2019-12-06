@@ -96,6 +96,26 @@ colnames(address_markers)[1:10] <- c("adsl",
                                      "wireless_availability") 
 
 write_csv(address_markers,"C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/wrangled_and_combined_internet_data.csv")
+
+adsl <- data.frame(address_markers %>% select(1,2,23,24))
+adsl <- filter(adsl, adsl == 1)
+write_csv(adsl, "C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/connections_data/adsl.csv")
+
+cable <- data.frame(address_markers %>% select(3,4,23,24))
+cable <- filter(cable, cable == 1)
+write_csv(cable, "C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/connections_data/cable.csv")
+
+fibre <- data.frame(address_markers %>% select(5,6,23,24))
+fibre <- filter(fibre, fibre == 1)
+write_csv(fibre, "C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/connections_data/fibre.csv")
+
+vdsl <- data.frame(address_markers %>% select(7,8,23,24))
+vdsl <- filter(vdsl, vdsl == 1)
+write_csv(vdsl, "C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/connections_data/vdsl.csv")
+
+all_connections <- data.frame(address_markers %>% select(23,24))
+write_csv(all_connections, "C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/connections_data/all_connections.csv")
+
   
 # Adding Markers --------------------------------------
 
@@ -104,7 +124,9 @@ write_csv(address_markers,"C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 39
 
 # Read wrangled dataset. 
 address_markers <- read_csv("C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/wrangled_and_combined_internet_data.csv")
-view(head(address_markers, 20))
+wireless <- data.frame(address_markers %>% select(9,10,23,24))
+wireless <- filter(wireless, wireless == 1)
+write_csv(wireless, "C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/connections_data/wireless.csv")view(head(address_markers, 20))
 sample_markers <- head(address_markers, 20)
 
 m <- leaflet() %>% 
@@ -158,7 +180,8 @@ m <- leaflet() %>%
               weight = 1, smoothFactor = 1, opacity = 1,
               label = nz_regions@data$REGC2018_1) %>%
   # Adding points.
-  addGlPoints(data = coords_sf, group = "coords",
+  addGlPoints(data = coords_sf, 
+              group = "coords",
               color = cols) 
 m
 
