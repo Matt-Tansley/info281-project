@@ -192,3 +192,4 @@ colnames(address_markers)[20] <- c("address_type_id")
 write_csv(address_markers,"C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/wrangled_and_combined_internet_data.csv")
 
 
+

@@ -26,63 +26,63 @@ library(rgdal)
 # Just a standard data.frame with NA values removed, used to,
 # get a count of markers inside a polygon.
 # And sf_frame, which is used to plot markers on the map.
-#all_connections <-  read_csv("C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/connections_data/all_connections.csv") %>% 
-#    na.omit()
-#sf_all_connections <- st_as_sf(all_connections, 
-#                               coords = c("longitude", "latitude"), 
-#                               crs = 4326)
-#
-#adsl <- read_csv("C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/connections_data/adsl.csv") %>% 
-#    na.omit()
-#sf_adsl <- st_as_sf(adsl,
-#                    coords = c("longitude", "latitude"), 
-#                    crs = 4326)
-#
-#cable <- read_csv("C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/connections_data/cable.csv") %>% 
-#    na.omit()
-#sf_cable <- st_as_sf(cable,
-#                     coords = c("longitude", "latitude"), 
-#                     crs = 4326)
-#
-#fibre <-read_csv("C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/connections_data/fibre.csv") %>% 
-#    na.omit()
-#sf_fibre <-  st_as_sf(fibre,
-#                      coords = c("longitude", "latitude"), 
-#                      crs = 4326) 
-#
-#vdsl <- read_csv("C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/connections_data/vdsl.csv") %>% 
-#    na.omit()
-#sf_vdsl <- st_as_sf(vdsl,
-#                    coords = c("longitude", "latitude"), 
-#                    crs = 4326)
-#
-#wireless <- read_csv("C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/connections_data/wireless.csv") %>% 
-#    na.omit()
-#sf_wireless <- st_as_sf(wireless,
-#                        coords = c("longitude", "latitude"), 
-#                        crs = 4326)
-#
-## Shapefile Boundaries
-## Two files:
-## sf_dataframe for rendering the polygons on a map.
-## SpatialPolygonsDataFrame for checking if a marker is 
-## inside a polygon. 
-#nz_regions <-
-#    st_read(dsn = "data/statsnzregional-council-2018-generalised-SHP (1)/regional-council-2018-generalised.shp")%>% 
-#    st_transform(crs="+init=epsg:4326") %>% 
-#    ms_simplify(.)
-#names(st_geometry(nz_regions)) = NULL 
-#
-#spatial_nz_regions <- as(nz_regions, 'Spatial')
-#
-#
-#nz_urban_rural <- 
-#    st_read(dsn = "data/statsnzurban-rural-2018-generalised-SHP/urban-rural-2018-generalised.shp")%>% 
-#    st_transform(crs="+init=epsg:4326") %>% 
-#    ms_simplify(.)
-#names(st_geometry(nz_urban_rural)) = NULL
-#
-#spatial_nz_urban_rural <- as(nz_urban_rural, 'Spatial')
+all_connections <-  read_csv("C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/connections_data/all_connections.csv") %>% 
+    na.omit()
+sf_all_connections <- st_as_sf(all_connections, 
+                               coords = c("longitude", "latitude"), 
+                               crs = 4326)
+
+adsl <- read_csv("C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/connections_data/adsl.csv") %>% 
+    na.omit()
+sf_adsl <- st_as_sf(adsl,
+                    coords = c("longitude", "latitude"), 
+                    crs = 4326)
+
+cable <- read_csv("C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/connections_data/cable.csv") %>% 
+    na.omit()
+sf_cable <- st_as_sf(cable,
+                     coords = c("longitude", "latitude"), 
+                     crs = 4326)
+
+fibre <-read_csv("C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/connections_data/fibre.csv") %>% 
+    na.omit()
+sf_fibre <-  st_as_sf(fibre,
+                      coords = c("longitude", "latitude"), 
+                      crs = 4326) 
+
+vdsl <- read_csv("C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/connections_data/vdsl.csv") %>% 
+    na.omit()
+sf_vdsl <- st_as_sf(vdsl,
+                    coords = c("longitude", "latitude"), 
+                    crs = 4326)
+
+wireless <- read_csv("C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/connections_data/wireless.csv") %>% 
+    na.omit()
+sf_wireless <- st_as_sf(wireless,
+                        coords = c("longitude", "latitude"), 
+                        crs = 4326)
+
+# Shapefile Boundaries
+# Two files:
+# sf_dataframe for rendering the polygons on a map.
+# SpatialPolygonsDataFrame for checking if a marker is 
+# inside a polygon. 
+nz_regions <-
+    st_read(dsn = "data/statsnzregional-council-2018-generalised-SHP (1)/regional-council-2018-generalised.shp")%>% 
+    st_transform(crs="+init=epsg:4326") %>% 
+    ms_simplify(.)
+names(st_geometry(nz_regions)) = NULL 
+
+spatial_nz_regions <- as(nz_regions, 'Spatial')
+
+
+nz_urban_rural <- 
+    st_read(dsn = "data/statsnzurban-rural-2018-generalised-SHP/urban-rural-2018-generalised.shp")%>% 
+    st_transform(crs="+init=epsg:4326") %>% 
+    ms_simplify(.)
+names(st_geometry(nz_urban_rural)) = NULL
+
+spatial_nz_urban_rural <- as(nz_urban_rural, 'Spatial')
 
 
 # Actual Shiny App ------------------------------------
@@ -162,27 +162,32 @@ server <- function(input, output) {
     
     marker_count_shapefile <- reactive({
         switch(input$shapefile,
-               "Regions" = spatial_nz_regions, 
-               "Urban/Rural" = spatial_nz_urban_rural
+               "Regions" = 'regions', 
+               "Urban/Rural" = 'urban_rural'
         )        
     })
     
-    run_over <- reactive({
-        over(marker_count_connection,
-             marker_count_shapefile)
-    })
-    
     marker_count_per_polygon <- function(){
-        which_areas <- run_over()
         if(marker_count_shapefile() == 'regions'){
-            a_table <<- table(which_areas$REGC2018_1)
+            over(marker_count_connection(),
+                 spatial_nz_regions)
         }else if(marker_count_shapefile() == 'urban_rural'){
-            a_table <<- table(which_areas$IUR2018__1)   
-        }  
+            over(marker_count_connection(), 
+                 spatial_nz_urban_rural)
+        }          
+    }
+    
+    marker_count_table <- function(){
+        which_polygon <- marker_count_per_polygon()
+        if(marker_count_shapefile() == 'regions'){
+            return(a_table <- table(which_polygon$REGC2018_1)) 
+        }else if(marker_count_shapefile() == 'urban_rural'){
+            return(a_table <- table(which_polygon$IUR2018__1))   
+        }    
     }
     
     output$data_point_counts <- renderTable({
-        
+        marker_count_table()
     })
     
     
@@ -221,25 +226,6 @@ server <- function(input, output) {
     #           'VDSL' = cbind(0, 0.2, 1),
     #           'Wireless' = cbind(0, 0.2, 1)
     #           )
-    #})
-    
-    #output$internet_map <- renderLeaflet({
-    #    
-    #    leaflet() %>% 
-    #        addProviderTiles(providers$CartoDB.VoyagerLabelsUnder) %>%
-    #        setView(lat = -40.9006, lng = 174.8860, zoom = 4) %>%
-    #        addPolygons(color = "#FFFFFF", 
-    #                    weight = 1, 
-    #                    smoothFactor = 1, 
-    #                    opacity = 1,
-    #                    data = m_data(),
-    #                    label = m_label()
-    #        ) %>%
-    #        # Adding points.
-    #        addGlPoints(data = m_connection(), 
-    #                    group = "coords",
-    #                    color = cbind(0, 0.2, 1)
-    #        ) 
     #})
 }
 
