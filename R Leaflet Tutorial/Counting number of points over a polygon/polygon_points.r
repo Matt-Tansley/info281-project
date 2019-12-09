@@ -118,7 +118,7 @@ write_region_connections <- function(marker_df){
   a_table <- as.data.frame(table(which_region$REGC2018_1))
   print("created table")
   write_csv(x = a_table, 
-            path = paste0("C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/connections_data/regions_count/regions_",deparse(substitute(marker_df)),".csv")) 
+            path = paste0("C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/connections_data/count_nz_regions/",deparse(substitute(marker_df)),".csv")) 
   print("wrote csv file")
 }
 
@@ -135,7 +135,7 @@ write_urban_rural_connections <- function(marker_df){
   a_table <- as.data.frame(table(which_area_type$IUR2018__1))
   print("created table")
   write_csv(x = a_table, 
-            path = paste0("C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/connections_data/urban_rurals_count/urban_rurals_",deparse(substitute(marker_df)),".csv")) 
+            path = paste0("C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/connections_data/count_nz_urban_rural/",deparse(substitute(marker_df)),".csv")) 
   print("wrote csv file")
 }
 

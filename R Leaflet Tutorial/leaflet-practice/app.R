@@ -148,41 +148,36 @@ server <- function(input, output) {
     })
     
     # Updates output for count of data points in each 
-    #polygon.
-    marker_count_connection <- reactive({
+    # polygon.
+    
+    data_point_region_connection <- reactive({
         switch(input$connection,
-               'All Connections' = all_connections,
-               'ADSL' = adsl,
-               'Cable' = cable,
-               'Fibre' = fibre,
-               'VDSL' = vdsl,
-               'Wireless' = wireless
-        )
+            'All Connections' = read_csv("C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/connections_data/count_nz_regions/all_connections.csv"),
+            'ADSL' = read_csv("C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/connections_data/count_nz_regions/adsl.csv"),
+            'Cable' = read_csv("C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/connections_data/count_nz_regions/cable.csv"),
+            'Fibre' = read_csv("C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/connections_data/count_nz_regions/fibre.csv"),
+            'VDSL' = read_csv("C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/connections_data/count_nz_regions/vdsl.csv"),
+            'Wireless' = read_csv("C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/connections_data/count_nz_regions/wireless.csv")
+        )  
     })
     
-    marker_count_shapefile <- reactive({
-        switch(input$shapefile,
-               "Regions" = spatial_nz_regions, 
-               "Urban/Rural" = spatial_nz_urban_rural
-        )        
+    data_point_area_connection <- reactive({
+        switch(input$connection,
+               'All Connections' = read_csv("C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/connections_data/count_nz_urban_rural/all_connections.csv"),
+               'ADSL' = read_csv("C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/connections_data/count_nz_urban_rural/adsl.csv"),
+               'Cable' = read_csv("C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/connections_data/count_nz_urban_rural/cable.csv"),
+               'Fibre' = read_csv("C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/connections_data/count_nz_urban_rural/fibre.csv"),
+               'VDSL' = read_csv("C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/connections_data/count_nz_urban_rural/vdsl.csv"),
+               'Wireless' = read_csv("C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/InternetNZ Data/connections_data/count_nz_urban_rural/wireless.csv")
+        )  
     })
-    
-    run_over <- reactive({
-        over(marker_count_connection,
-             marker_count_shapefile)
-    })
-    
-    marker_count_per_polygon <- function(){
-        which_areas <- run_over()
-        if(marker_count_shapefile() == 'regions'){
-            a_table <<- table(which_areas$REGC2018_1)
-        }else if(marker_count_shapefile() == 'urban_rural'){
-            a_table <<- table(which_areas$IUR2018__1)   
-        }  
-    }
     
     output$data_point_counts <- renderTable({
-        
+        if(input$shapefile == "Regions"){
+            data_point_region_connection()      
+        }else if(input$shapefile == "Urban/Rural"){
+             data_point_area_connection()
+        }    
     })
     
     
