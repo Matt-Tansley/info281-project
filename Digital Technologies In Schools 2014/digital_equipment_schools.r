@@ -46,7 +46,8 @@ summaryPlot <- Rmisc::summarySE(groupvar = c("decile", "measure"),
 
 summaryPlot %>%
   ggplot() +
-  aes(x = measure, y = count, fill = decile) +
+  aes(x = decile, y = count, fill = decile) +
   geom_bar(stat = 'identity', position = 'dodge') + 
   geom_errorbar(aes(ymin = count - ci, ymax = count + ci), position = 'dodge') +
+  facet_wrap(~ measure) +
   scale_fill_viridis_d() # _d for discrete, _c for continuous
