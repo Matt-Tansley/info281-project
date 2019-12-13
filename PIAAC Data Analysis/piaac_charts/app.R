@@ -13,6 +13,9 @@ library(shinyjs)
 
 # Define UI for application that draws a histogram
 ui <- fluidPage(
+    
+    # NEED THIS LINE TO ACTULLY ENABLE SHINYJS
+    useShinyjs(),
 
     # Application title
     titlePanel("Old Faithful Geyser Data"),
@@ -46,9 +49,12 @@ ui <- fluidPage(
             plotOutput("computer_users"),
             
             box(id = "myBox", title = "Tree Output", width = '800px',
-                selectInput(inputId = "myInput", label = "my input", choices = c(letters))
+                radioButtons(inputId = "myInput", label = "my input", choices = c("a", "b", "c"))
             ),
-            actionButton(inputId = "button", label = "show / hide")
+            conditionalPanel(condition = "input.myInput == 'a'",
+                             box(id = "box_a", title = "AAA", width = '800px')),
+            conditionalPanel(condition = "input.myInput == 'b'",
+                             box(id = "box_b", title = "BBB", width = '800px'))
         )
     )
 )
@@ -57,8 +63,18 @@ ui <- fluidPage(
 server <- function(input, output) {
     
     ## observe the button being pressed
-    observeEvent(input$button, {
-        shinyjs::toggle("myBox")
+    observeEvent(input$myInput,{
+        
+        if(input$myInput == "a"){
+            shinyjs::toggle(id = "box_a")
+            shinyjs::toggle(id = "box_b")
+        }else if(input$myInput == "b"){
+            shinyjs::show(id = "box_b")
+            shinyjs::hide(id = "box_a")
+        }else{
+            shinyjs::hide(id = "box_b")
+            shinyjs::hide(id = "box_a")   
+        }
     })
     
     demographics <- reactive({
@@ -82,8 +98,6 @@ server <- function(input, output) {
         )    
     })
     
-    
-
     output$computer_users <- renderPlot({
         demo_cleaned %>%
             ggplot() +
