@@ -1,0 +1,120 @@
+## app.R ##
+library(shinydashboard)
+
+ui <- dashboardPage(skin = 'purple',
+    dashboardHeader(title = "Digital Inclusion Dashboard",
+                    titleWidth = '300px'),
+    ## Sidebar content
+    dashboardSidebar(
+        sidebarMenu(
+            menuItem("Home", tabName = "dashboard", icon = icon("home")),
+            menuItem("Map", tabName = "map", icon = icon("globe-americas")),
+            menuItem("PIAAC", tabName = "piaac", icon = icon("chart-bar")),
+            menuItem("Education", tabName = "education", icon = icon("laptop"))
+        )
+    ),
+    ## Body content
+    dashboardBody(
+        tabItems(
+            # First tab content
+            tabItem(tabName = "map",
+                    fluidRow(
+                        column(
+                            width = 4,
+                            box(width = NULL,
+                                radioButtons('connection',
+                                             'Type of Internet Connection',
+                                             choices = list('All Connections',
+                                                            'ADSL',
+                                                            'Cable',
+                                                            'Fibre',
+                                                            'VDSL',
+                                                            'Wireless'
+                                             ),
+                                             selected = "All Connections"
+                                )
+                            ),
+                            
+                            box(width = NULL,
+                                selectInput('shapefile',
+                                            "Shapefile",
+                                            choices = list('Regions',
+                                                           'Urban/Rural'),
+                                            selected = 'Regions'
+                                ),
+                                
+                                textOutput("selected_var")
+                            ),
+                            
+                            box(width = NULL,
+                                h5("Number of Data Points in Each Area"),
+                                tableOutput("data_point_counts")
+                            )
+                        ),   
+                        
+                        column(
+                            width = 8,
+                            box(
+                                width = NULL,
+                                title = 'Map',
+                                height = '400px',
+                                leafglOutput("internet_map")    
+                            )    
+                        )
+                    )
+            ),
+            
+            # Second tab content
+            tabItem(tabName = "piaac",
+                    sidebarLayout(
+                        sidebarPanel(
+                            radioButtons("demographic",
+                                         label = "Select Demographic",
+                                         choices = list("Gender",
+                                                        "Age",
+                                                        "Job Situation",
+                                                        "Qualification"),
+                                         selected = "Gender"),
+                            
+                            radioButtons("comp_use",
+                                         label = "Computer Use",
+                                         choices = list("Has used a computer" = 1,
+                                                        "Uses a computer in every life outside of work" = 2,
+                                                        "Uses email" = 3,
+                                                        "Uses Internet to understand things/ general knowledge" = 4,
+                                                        "Uses the Internet for online transactions (e.g banking, online shopping" = 5,
+                                                        "Uses a programming language/ writes computer code" = 6,
+                                                        "Participates in online discussions (e.g chat rooms, online conferences)" = 7
+                                         ),
+                                         selected = 1)
+                        ),
+                        
+                        # Show a plot of the generated distribution
+                        mainPanel(
+                            plotOutput("computer_users"),
+                            
+                            box(id = "myBox", title = "Tree Output", width = '800px',
+                                radioButtons(inputId = "myInput", label = "my input", choices = c("a", "b", "c"))
+                            ),
+                            conditionalPanel(condition = "input.myInput == 'a'",
+                                             box(id = "box_a", title = "AAA", width = '800px')),
+                            conditionalPanel(condition = "input.myInput == 'b'",
+                                             box(id = "box_b", title = "BBB", width = '800px'))
+                        )
+                    )
+            )
+        )
+    )
+)
+
+server <- function(input, output) {
+    set.seed(122)
+    histdata <- rnorm(500)
+    
+    output$plot1 <- renderPlot({
+        data <- histdata[seq_len(input$slider)]
+        hist(data)
+    })
+}
+
+shinyApp(ui, server)
