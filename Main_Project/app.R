@@ -1,5 +1,6 @@
 ## app.R ##
 library(shinydashboard)
+library(leaflet)
 
 ui <- dashboardPage(skin = 'purple',
     dashboardHeader(title = "Digital Inclusion Dashboard",
@@ -7,7 +8,7 @@ ui <- dashboardPage(skin = 'purple',
     ## Sidebar content
     dashboardSidebar(
         sidebarMenu(
-            menuItem("Home", tabName = "dashboard", icon = icon("home")),
+            menuItem("Home", tabName = "home", icon = icon("home")),
             menuItem("Map", tabName = "map", icon = icon("globe-americas")),
             menuItem("PIAAC", tabName = "piaac", icon = icon("chart-bar")),
             menuItem("Education", tabName = "education", icon = icon("laptop"))
@@ -16,7 +17,12 @@ ui <- dashboardPage(skin = 'purple',
     ## Body content
     dashboardBody(
         tabItems(
-            # First tab content
+            tabItem(tabName = "home",
+                    fluidRow(
+                        h3("hello world")
+                    )
+            ),
+            # Map tab
             tabItem(tabName = "map",
                     fluidRow(
                         column(
@@ -58,7 +64,7 @@ ui <- dashboardPage(skin = 'purple',
                                 width = NULL,
                                 title = 'Map',
                                 height = '400px',
-                                leafglOutput("internet_map")    
+                                leafgl::leafglOutput("internet_map")    
                             )    
                         )
                     )
