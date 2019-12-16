@@ -1,0 +1,344 @@
+q_name,response,q_label,n
+IC001Q01TA,"Yes, and I use it",Available for you to use at home: Desktop computer,2202
+IC001Q01TA,"Yes, but I don't use it",Available for you to use at home: Desktop computer,824
+IC001Q01TA,No,Available for you to use at home: Desktop computer,906
+IC001Q02TA,"Yes, and I use it","Available for you to use at home: Portable laptop, or notebook",3103
+IC001Q02TA,"Yes, but I don't use it","Available for you to use at home: Portable laptop, or notebook",468
+IC001Q02TA,No,"Available for you to use at home: Portable laptop, or notebook",364
+IC001Q03TA,"Yes, and I use it","Available for you to use at home: <Tablet computer> (e.g. <iPad®>, <BlackBerry® PlayBook>)",2229
+IC001Q03TA,"Yes, but I don't use it","Available for you to use at home: <Tablet computer> (e.g. <iPad®>, <BlackBerry® PlayBook>)",917
+IC001Q03TA,No,"Available for you to use at home: <Tablet computer> (e.g. <iPad®>, <BlackBerry® PlayBook>)",774
+IC001Q04TA,"Yes, and I use it",Available for you to use at home: Internet connection,3744
+IC001Q04TA,"Yes, but I don't use it",Available for you to use at home: Internet connection,51
+IC001Q04TA,No,Available for you to use at home: Internet connection,130
+IC001Q05TA,"Yes, and I use it","Available for you to use at home: <Video games console>, e.g. <Sony® PlayStation®>",2030
+IC001Q05TA,"Yes, but I don't use it","Available for you to use at home: <Video games console>, e.g. <Sony® PlayStation®>",1063
+IC001Q05TA,No,"Available for you to use at home: <Video games console>, e.g. <Sony® PlayStation®>",830
+IC001Q06TA,"Yes, and I use it",Available for you to use at home: <Cell phone> (without Internet access),1329
+IC001Q06TA,"Yes, but I don't use it",Available for you to use at home: <Cell phone> (without Internet access),831
+IC001Q06TA,No,Available for you to use at home: <Cell phone> (without Internet access),1743
+IC001Q07TA,"Yes, and I use it",Available for you to use at home: <Cell phone> (with Internet access),3552
+IC001Q07TA,"Yes, but I don't use it",Available for you to use at home: <Cell phone> (with Internet access),229
+IC001Q07TA,No,Available for you to use at home: <Cell phone> (with Internet access),153
+IC001Q08TA,"Yes, and I use it","Available for you to use at home: Portable music player (Mp3\Mp4 player, iPod® or similar)",2688
+IC001Q08TA,"Yes, but I don't use it","Available for you to use at home: Portable music player (Mp3\Mp4 player, iPod® or similar)",723
+IC001Q08TA,No,"Available for you to use at home: Portable music player (Mp3\Mp4 player, iPod® or similar)",509
+IC001Q09TA,"Yes, and I use it",Available for you to use at home: Printer,2613
+IC001Q09TA,"Yes, but I don't use it",Available for you to use at home: Printer,693
+IC001Q09TA,No,Available for you to use at home: Printer,601
+IC001Q10TA,"Yes, and I use it",Available for you to use at home: USB (memory) stick,2884
+IC001Q10TA,"Yes, but I don't use it",Available for you to use at home: USB (memory) stick,856
+IC001Q10TA,No,Available for you to use at home: USB (memory) stick,170
+IC001Q11TA,"Yes, and I use it","Available for you to use at home: <ebook reader>, e.g. <Amazon® Kindle>",511
+IC001Q11TA,"Yes, but I don't use it","Available for you to use at home: <ebook reader>, e.g. <Amazon® Kindle>",718
+IC001Q11TA,No,"Available for you to use at home: <ebook reader>, e.g. <Amazon® Kindle>",2662
+IC002Q01NA,6 years old or younger,How old were you when you first used a digital device?,1248
+IC002Q01NA,7-9 years old,How old were you when you first used a digital device?,1369
+IC002Q01NA,10-12 years old,How old were you when you first used a digital device?,983
+IC002Q01NA,13 years old or older,How old were you when you first used a digital device?,291
+IC002Q01NA,I have never used a digital device until today,How old were you when you first used a digital device?,31
+IC003Q01TA,6 years old or younger,How old were you when you first used a computer?,1483
+IC003Q01TA,7-9 years old,How old were you when you first used a computer?,1718
+IC003Q01TA,10-12 years old,How old were you when you first used a computer?,548
+IC003Q01TA,13 years old or older,How old were you when you first used a computer?,126
+IC003Q01TA,I have never used a digital device until today,How old were you when you first used a computer?,6
+IC004Q01TA,6 years old or younger,How old were you when you first accessed the Internet?,810
+IC004Q01TA,7-9 years old,How old were you when you first accessed the Internet?,1811
+IC004Q01TA,10-12 years old,How old were you when you first accessed the Internet?,1043
+IC004Q01TA,13 years old or older,How old were you when you first accessed the Internet?,187
+IC004Q01TA,I have never used a digital device until today,How old were you when you first accessed the Internet?,15
+IC005Q01TA,No time,"During a typical weekday, for how long do you use the Internet at school?",360
+IC005Q01TA,1-30 minutes per day,"During a typical weekday, for how long do you use the Internet at school?",1075
+IC005Q01TA,31-60 minutes per day,"During a typical weekday, for how long do you use the Internet at school?",894
+IC005Q01TA,Between 1 hour and 2 hours per day,"During a typical weekday, for how long do you use the Internet at school?",720
+IC005Q01TA,Between 2 hours and 4 hours per day,"During a typical weekday, for how long do you use the Internet at school?",433
+IC005Q01TA,Between 4 hours and 6 hours per day,"During a typical weekday, for how long do you use the Internet at school?",201
+IC005Q01TA,More than 6 hours per day,"During a typical weekday, for how long do you use the Internet at school?",160
+IC006Q01TA,No time,"During a typical weekday, for how long do you use the Internet outside of school?",85
+IC006Q01TA,1-30 minutes per day,"During a typical weekday, for how long do you use the Internet outside of school?",147
+IC006Q01TA,31-60 minutes per day,"During a typical weekday, for how long do you use the Internet outside of school?",286
+IC006Q01TA,Between 1 hour and 2 hours per day,"During a typical weekday, for how long do you use the Internet outside of school?",706
+IC006Q01TA,Between 2 hours and 4 hours per day,"During a typical weekday, for how long do you use the Internet outside of school?",1168
+IC006Q01TA,Between 4 hours and 6 hours per day,"During a typical weekday, for how long do you use the Internet outside of school?",803
+IC006Q01TA,More than 6 hours per day,"During a typical weekday, for how long do you use the Internet outside of school?",654
+IC007Q01TA,No time,"On a typical weekend day, for how long do you use the Internet outside of school?",83
+IC007Q01TA,1-30 minutes per day,"On a typical weekend day, for how long do you use the Internet outside of school?",144
+IC007Q01TA,31-60 minutes per day,"On a typical weekend day, for how long do you use the Internet outside of school?",230
+IC007Q01TA,Between 1 hour and 2 hours per day,"On a typical weekend day, for how long do you use the Internet outside of school?",472
+IC007Q01TA,Between 2 hours and 4 hours per day,"On a typical weekend day, for how long do you use the Internet outside of school?",957
+IC007Q01TA,Between 4 hours and 6 hours per day,"On a typical weekend day, for how long do you use the Internet outside of school?",876
+IC007Q01TA,More than 6 hours per day,"On a typical weekend day, for how long do you use the Internet outside of school?",1064
+IC008Q01TA,Never or hardly ever,Use digital devices outside school for playing one-player games.,1281
+IC008Q01TA,Once or twice a month,Use digital devices outside school for playing one-player games.,611
+IC008Q01TA,Once or twice a week,Use digital devices outside school for playing one-player games.,880
+IC008Q01TA,Almost every day,Use digital devices outside school for playing one-player games.,581
+IC008Q01TA,Every day,Use digital devices outside school for playing one-player games.,405
+IC008Q02TA,Never or hardly ever,Use digital devices outside school for playing collaborative online games.,1692
+IC008Q02TA,Once or twice a month,Use digital devices outside school for playing collaborative online games.,494
+IC008Q02TA,Once or twice a week,Use digital devices outside school for playing collaborative online games.,610
+IC008Q02TA,Almost every day,Use digital devices outside school for playing collaborative online games.,455
+IC008Q02TA,Every day,Use digital devices outside school for playing collaborative online games.,475
+IC008Q03TA,Never or hardly ever,Use digital devices outside school for using email.,547
+IC008Q03TA,Once or twice a month,Use digital devices outside school for using email.,733
+IC008Q03TA,Once or twice a week,Use digital devices outside school for using email.,1224
+IC008Q03TA,Almost every day,Use digital devices outside school for using email.,739
+IC008Q03TA,Every day,Use digital devices outside school for using email.,486
+IC008Q04TA,Never or hardly ever,Use digital devices outside school for <Chatting online> (e.g. <MSN®>).,242
+IC008Q04TA,Once or twice a month,Use digital devices outside school for <Chatting online> (e.g. <MSN®>).,136
+IC008Q04TA,Once or twice a week,Use digital devices outside school for <Chatting online> (e.g. <MSN®>).,429
+IC008Q04TA,Almost every day,Use digital devices outside school for <Chatting online> (e.g. <MSN®>).,943
+IC008Q04TA,Every day,Use digital devices outside school for <Chatting online> (e.g. <MSN®>).,2001
+IC008Q05TA,Never or hardly ever,"Use digital devices outside school for social networks (e.g. <Facebook>, <MySpace>).",310
+IC008Q05TA,Once or twice a month,"Use digital devices outside school for social networks (e.g. <Facebook>, <MySpace>).",124
+IC008Q05TA,Once or twice a week,"Use digital devices outside school for social networks (e.g. <Facebook>, <MySpace>).",397
+IC008Q05TA,Almost every day,"Use digital devices outside school for social networks (e.g. <Facebook>, <MySpace>).",865
+IC008Q05TA,Every day,"Use digital devices outside school for social networks (e.g. <Facebook>, <MySpace>).",2031
+IC008Q07NA,Never or hardly ever,"Use digital devices outside school for online games\Social Networks (e.g. <Farmville®>, <The Sims Social>).",2161
+IC008Q07NA,Once or twice a month,"Use digital devices outside school for online games\Social Networks (e.g. <Farmville®>, <The Sims Social>).",496
+IC008Q07NA,Once or twice a week,"Use digital devices outside school for online games\Social Networks (e.g. <Farmville®>, <The Sims Social>).",428
+IC008Q07NA,Almost every day,"Use digital devices outside school for online games\Social Networks (e.g. <Farmville®>, <The Sims Social>).",301
+IC008Q07NA,Every day,"Use digital devices outside school for online games\Social Networks (e.g. <Farmville®>, <The Sims Social>).",336
+IC008Q08TA,Never or hardly ever,"Use digital devices outside school for browsing the Internet for fun videos, e.g. <YouTube>).",166
+IC008Q08TA,Once or twice a month,"Use digital devices outside school for browsing the Internet for fun videos, e.g. <YouTube>).",214
+IC008Q08TA,Once or twice a week,"Use digital devices outside school for browsing the Internet for fun videos, e.g. <YouTube>).",680
+IC008Q08TA,Almost every day,"Use digital devices outside school for browsing the Internet for fun videos, e.g. <YouTube>).",1051
+IC008Q08TA,Every day,"Use digital devices outside school for browsing the Internet for fun videos, e.g. <YouTube>).",1614
+IC008Q09TA,Never or hardly ever,Use digital devices outside school for reading news on the Internet (e.g. current affairs).,767
+IC008Q09TA,Once or twice a month,Use digital devices outside school for reading news on the Internet (e.g. current affairs).,717
+IC008Q09TA,Once or twice a week,Use digital devices outside school for reading news on the Internet (e.g. current affairs).,1042
+IC008Q09TA,Almost every day,Use digital devices outside school for reading news on the Internet (e.g. current affairs).,677
+IC008Q09TA,Every day,Use digital devices outside school for reading news on the Internet (e.g. current affairs).,500
+IC008Q10TA,Never or hardly ever,Use digital devices outside school for obtaining practical information from the Internet,540
+IC008Q10TA,Once or twice a month,Use digital devices outside school for obtaining practical information from the Internet,676
+IC008Q10TA,Once or twice a week,Use digital devices outside school for obtaining practical information from the Internet,1229
+IC008Q10TA,Almost every day,Use digital devices outside school for obtaining practical information from the Internet,799
+IC008Q10TA,Every day,Use digital devices outside school for obtaining practical information from the Internet,454
+IC008Q11TA,Never or hardly ever,"Use digital devices outside school for downloading music, films, games or software from the Internet.",436
+IC008Q11TA,Once or twice a month,"Use digital devices outside school for downloading music, films, games or software from the Internet.",646
+IC008Q11TA,Once or twice a week,"Use digital devices outside school for downloading music, films, games or software from the Internet.",1011
+IC008Q11TA,Almost every day,"Use digital devices outside school for downloading music, films, games or software from the Internet.",878
+IC008Q11TA,Every day,"Use digital devices outside school for downloading music, films, games or software from the Internet.",740
+IC008Q12TA,Never or hardly ever,Use digital devices outside school for uploading your own created contents for sharing,2141
+IC008Q12TA,Once or twice a month,Use digital devices outside school for uploading your own created contents for sharing,623
+IC008Q12TA,Once or twice a week,Use digital devices outside school for uploading your own created contents for sharing,445
+IC008Q12TA,Almost every day,Use digital devices outside school for uploading your own created contents for sharing,242
+IC008Q12TA,Every day,Use digital devices outside school for uploading your own created contents for sharing,244
+IC008Q13NA,Never or hardly ever,Use digital devices outside school for downloading new apps on a mobile device.,444
+IC008Q13NA,Once or twice a month,Use digital devices outside school for downloading new apps on a mobile device.,1452
+IC008Q13NA,Once or twice a week,Use digital devices outside school for downloading new apps on a mobile device.,1026
+IC008Q13NA,Almost every day,Use digital devices outside school for downloading new apps on a mobile device.,433
+IC008Q13NA,Every day,Use digital devices outside school for downloading new apps on a mobile device.,350
+IC009Q01TA,"Yes, and I use it",Digitial devices available at school: Desktop computer,2944
+IC009Q01TA,"Yes, but I don't use it",Digitial devices available at school: Desktop computer,729
+IC009Q01TA,No,Digitial devices available at school: Desktop computer,225
+IC009Q02TA,"Yes, and I use it",Digitial devices available at school: Portable laptop or notebook,2054
+IC009Q02TA,"Yes, but I don't use it",Digitial devices available at school: Portable laptop or notebook,833
+IC009Q02TA,No,Digitial devices available at school: Portable laptop or notebook,981
+IC009Q05NA,"Yes, and I use it",Digitial devices available at school: Internet connected school computers,3254
+IC009Q05NA,"Yes, but I don't use it",Digitial devices available at school: Internet connected school computers,500
+IC009Q05NA,No,Digitial devices available at school: Internet connected school computers,121
+IC009Q06NA,"Yes, and I use it",Digitial devices available at school: Internet connection via wireless network,3086
+IC009Q06NA,"Yes, but I don't use it",Digitial devices available at school: Internet connection via wireless network,479
+IC009Q06NA,No,Digitial devices available at school: Internet connection via wireless network,293
+IC009Q07NA,"Yes, and I use it","Digitial devices available at school: Storage space for school-related data, e.g. a folder for own documents",3056
+IC009Q07NA,"Yes, but I don't use it","Digitial devices available at school: Storage space for school-related data, e.g. a folder for own documents",508
+IC009Q07NA,No,"Digitial devices available at school: Storage space for school-related data, e.g. a folder for own documents",288
+IC009Q08TA,"Yes, and I use it",Digitial devices available at school: USB (memory) stick,1441
+IC009Q08TA,"Yes, but I don't use it",Digitial devices available at school: USB (memory) stick,761
+IC009Q08TA,No,Digitial devices available at school: USB (memory) stick,1644
+IC009Q09TA,"Yes, and I use it","Digitial devices available at school: <ebook reader>, e.g. <Amazon® Kindle>",247
+IC009Q09TA,"Yes, but I don't use it","Digitial devices available at school: <ebook reader>, e.g. <Amazon® Kindle>",438
+IC009Q09TA,No,"Digitial devices available at school: <ebook reader>, e.g. <Amazon® Kindle>",3100
+IC009Q10NA,"Yes, and I use it","Digitial devices available at school: Data projector, e.g. for slide presentations",1922
+IC009Q10NA,"Yes, but I don't use it","Digitial devices available at school: Data projector, e.g. for slide presentations",1466
+IC009Q10NA,No,"Digitial devices available at school: Data projector, e.g. for slide presentations",461
+IC009Q11NA,"Yes, and I use it","Digitial devices available at school: Interactive Whiteboard, e.g. <Smartboard®>",962
+IC009Q11NA,"Yes, but I don't use it","Digitial devices available at school: Interactive Whiteboard, e.g. <Smartboard®>",1182
+IC009Q11NA,No,"Digitial devices available at school: Interactive Whiteboard, e.g. <Smartboard®>",1691
+IC010Q01TA,Never or hardly ever,Frequency of use outside of school: Browsing the Internet for schoolwork (e.g. for preparing an essay or presentation,329
+IC010Q01TA,Once or twice a month,Frequency of use outside of school: Browsing the Internet for schoolwork (e.g. for preparing an essay or presentation,585
+IC010Q01TA,Once or twice a week,Frequency of use outside of school: Browsing the Internet for schoolwork (e.g. for preparing an essay or presentation,1479
+IC010Q01TA,Almost every day,Frequency of use outside of school: Browsing the Internet for schoolwork (e.g. for preparing an essay or presentation,879
+IC010Q01TA,Every day,Frequency of use outside of school: Browsing the Internet for schoolwork (e.g. for preparing an essay or presentation,382
+IC010Q02NA,Never or hardly ever,"Frequency of use outside of school: Browsing the Internet to follow up lessons, e.g. for finding explanations.",630
+IC010Q02NA,Once or twice a month,"Frequency of use outside of school: Browsing the Internet to follow up lessons, e.g. for finding explanations.",844
+IC010Q02NA,Once or twice a week,"Frequency of use outside of school: Browsing the Internet to follow up lessons, e.g. for finding explanations.",1300
+IC010Q02NA,Almost every day,"Frequency of use outside of school: Browsing the Internet to follow up lessons, e.g. for finding explanations.",585
+IC010Q02NA,Every day,"Frequency of use outside of school: Browsing the Internet to follow up lessons, e.g. for finding explanations.",257
+IC010Q03TA,Never or hardly ever,Frequency of use outside of school: Using email for communication with other students about schoolwork.,1257
+IC010Q03TA,Once or twice a month,Frequency of use outside of school: Using email for communication with other students about schoolwork.,859
+IC010Q03TA,Once or twice a week,Frequency of use outside of school: Using email for communication with other students about schoolwork.,870
+IC010Q03TA,Almost every day,Frequency of use outside of school: Using email for communication with other students about schoolwork.,408
+IC010Q03TA,Every day,Frequency of use outside of school: Using email for communication with other students about schoolwork.,223
+IC010Q04TA,Never or hardly ever,Frequency of use outside of school: Using email for communication with teacher\submit of homework or other schoolwork,888
+IC010Q04TA,Once or twice a month,Frequency of use outside of school: Using email for communication with teacher\submit of homework or other schoolwork,1194
+IC010Q04TA,Once or twice a week,Frequency of use outside of school: Using email for communication with teacher\submit of homework or other schoolwork,961
+IC010Q04TA,Almost every day,Frequency of use outside of school: Using email for communication with teacher\submit of homework or other schoolwork,362
+IC010Q04TA,Every day,Frequency of use outside of school: Using email for communication with teacher\submit of homework or other schoolwork,195
+IC010Q05NA,Never or hardly ever,Frequency of use outside of school: Using Social Networks for communication with other students about schoolwork.,632
+IC010Q05NA,Once or twice a month,Frequency of use outside of school: Using Social Networks for communication with other students about schoolwork.,708
+IC010Q05NA,Once or twice a week,Frequency of use outside of school: Using Social Networks for communication with other students about schoolwork.,1033
+IC010Q05NA,Almost every day,Frequency of use outside of school: Using Social Networks for communication with other students about schoolwork.,690
+IC010Q05NA,Every day,Frequency of use outside of school: Using Social Networks for communication with other students about schoolwork.,539
+IC010Q06NA,Never or hardly ever,Frequency of use outside of school: Using Social Networks for communication with teachers.,2339
+IC010Q06NA,Once or twice a month,Frequency of use outside of school: Using Social Networks for communication with teachers.,410
+IC010Q06NA,Once or twice a week,Frequency of use outside of school: Using Social Networks for communication with teachers.,393
+IC010Q06NA,Almost every day,Frequency of use outside of school: Using Social Networks for communication with teachers.,235
+IC010Q06NA,Every day,Frequency of use outside of school: Using Social Networks for communication with teachers.,205
+IC010Q07TA,Never or hardly ever,Frequency of use outside of school: Download\upload\browsing from school website (e.g. time table or course materials,1363
+IC010Q07TA,Once or twice a month,Frequency of use outside of school: Download\upload\browsing from school website (e.g. time table or course materials,984
+IC010Q07TA,Once or twice a week,Frequency of use outside of school: Download\upload\browsing from school website (e.g. time table or course materials,743
+IC010Q07TA,Almost every day,Frequency of use outside of school: Download\upload\browsing from school website (e.g. time table or course materials,313
+IC010Q07TA,Every day,Frequency of use outside of school: Download\upload\browsing from school website (e.g. time table or course materials,184
+IC010Q08TA,Never or hardly ever,"Frequency of use outside of school: Checking the schools website for announcements, e.g. absence of teachers.",1408
+IC010Q08TA,Once or twice a month,"Frequency of use outside of school: Checking the schools website for announcements, e.g. absence of teachers.",852
+IC010Q08TA,Once or twice a week,"Frequency of use outside of school: Checking the schools website for announcements, e.g. absence of teachers.",731
+IC010Q08TA,Almost every day,"Frequency of use outside of school: Checking the schools website for announcements, e.g. absence of teachers.",379
+IC010Q08TA,Every day,"Frequency of use outside of school: Checking the schools website for announcements, e.g. absence of teachers.",204
+IC010Q09NA,Never or hardly ever,Frequency of use outside of school: Doing homework on a computer.,340
+IC010Q09NA,Once or twice a month,Frequency of use outside of school: Doing homework on a computer.,522
+IC010Q09NA,Once or twice a week,Frequency of use outside of school: Doing homework on a computer.,1169
+IC010Q09NA,Almost every day,Frequency of use outside of school: Doing homework on a computer.,993
+IC010Q09NA,Every day,Frequency of use outside of school: Doing homework on a computer.,581
+IC010Q10NA,Never or hardly ever,Frequency of use outside of school: Doing homework on a mobile device.,1157
+IC010Q10NA,Once or twice a month,Frequency of use outside of school: Doing homework on a mobile device.,765
+IC010Q10NA,Once or twice a week,Frequency of use outside of school: Doing homework on a mobile device.,861
+IC010Q10NA,Almost every day,Frequency of use outside of school: Doing homework on a mobile device.,519
+IC010Q10NA,Every day,Frequency of use outside of school: Doing homework on a mobile device.,273
+IC010Q11NA,Never or hardly ever,Frequency of use outside of school: Downloading learning apps on a mobile device.,1780
+IC010Q11NA,Once or twice a month,Frequency of use outside of school: Downloading learning apps on a mobile device.,904
+IC010Q11NA,Once or twice a week,Frequency of use outside of school: Downloading learning apps on a mobile device.,461
+IC010Q11NA,Almost every day,Frequency of use outside of school: Downloading learning apps on a mobile device.,270
+IC010Q11NA,Every day,Frequency of use outside of school: Downloading learning apps on a mobile device.,180
+IC010Q12NA,Never or hardly ever,Frequency of use outside of school: Downloading science learning apps on a mobile device.,2363
+IC010Q12NA,Once or twice a month,Frequency of use outside of school: Downloading science learning apps on a mobile device.,539
+IC010Q12NA,Once or twice a week,Frequency of use outside of school: Downloading science learning apps on a mobile device.,327
+IC010Q12NA,Almost every day,Frequency of use outside of school: Downloading science learning apps on a mobile device.,210
+IC010Q12NA,Every day,Frequency of use outside of school: Downloading science learning apps on a mobile device.,144
+IC011Q01TA,Never or hardly ever,Frequency of use at school: <Chatting on line> at school.,1389
+IC011Q01TA,Once or twice a month,Frequency of use at school: <Chatting on line> at school.,436
+IC011Q01TA,Once or twice a week,Frequency of use at school: <Chatting on line> at school.,669
+IC011Q01TA,Almost every day,Frequency of use at school: <Chatting on line> at school.,648
+IC011Q01TA,Every day,Frequency of use at school: <Chatting on line> at school.,492
+IC011Q02TA,Never or hardly ever,Frequency of use at school: Using email at school.,797
+IC011Q02TA,Once or twice a month,Frequency of use at school: Using email at school.,766
+IC011Q02TA,Once or twice a week,Frequency of use at school: Using email at school.,1096
+IC011Q02TA,Almost every day,Frequency of use at school: Using email at school.,594
+IC011Q02TA,Every day,Frequency of use at school: Using email at school.,338
+IC011Q03TA,Never or hardly ever,Frequency of use at school: Browsing the Internet for schoolwork.,449
+IC011Q03TA,Once or twice a month,Frequency of use at school: Browsing the Internet for schoolwork.,556
+IC011Q03TA,Once or twice a week,Frequency of use at school: Browsing the Internet for schoolwork.,1267
+IC011Q03TA,Almost every day,Frequency of use at school: Browsing the Internet for schoolwork.,872
+IC011Q03TA,Every day,Frequency of use at school: Browsing the Internet for schoolwork.,438
+IC011Q04TA,Never or hardly ever,Frequency of use at school: Download\upload\browse schools web (e.g. <intranet>).,1559
+IC011Q04TA,Once or twice a month,Frequency of use at school: Download\upload\browse schools web (e.g. <intranet>).,729
+IC011Q04TA,Once or twice a week,Frequency of use at school: Download\upload\browse schools web (e.g. <intranet>).,695
+IC011Q04TA,Almost every day,Frequency of use at school: Download\upload\browse schools web (e.g. <intranet>).,381
+IC011Q04TA,Every day,Frequency of use at school: Download\upload\browse schools web (e.g. <intranet>).,224
+IC011Q05TA,Never or hardly ever,Frequency of use at school: Posting my work on the schools website.,2539
+IC011Q05TA,Once or twice a month,Frequency of use at school: Posting my work on the schools website.,393
+IC011Q05TA,Once or twice a week,Frequency of use at school: Posting my work on the schools website.,368
+IC011Q05TA,Almost every day,Frequency of use at school: Posting my work on the schools website.,169
+IC011Q05TA,Every day,Frequency of use at school: Posting my work on the schools website.,124
+IC011Q06TA,Never or hardly ever,Frequency of use at school: Playing simulations at school.,2541
+IC011Q06TA,Once or twice a month,Frequency of use at school: Playing simulations at school.,461
+IC011Q06TA,Once or twice a week,Frequency of use at school: Playing simulations at school.,308
+IC011Q06TA,Almost every day,Frequency of use at school: Playing simulations at school.,152
+IC011Q06TA,Every day,Frequency of use at school: Playing simulations at school.,108
+IC011Q07TA,Never or hardly ever,"Frequency of use at school: Practicing and drilling, foreign language learning or math.",2024
+IC011Q07TA,Once or twice a month,"Frequency of use at school: Practicing and drilling, foreign language learning or math.",618
+IC011Q07TA,Once or twice a week,"Frequency of use at school: Practicing and drilling, foreign language learning or math.",504
+IC011Q07TA,Almost every day,"Frequency of use at school: Practicing and drilling, foreign language learning or math.",266
+IC011Q07TA,Every day,"Frequency of use at school: Practicing and drilling, foreign language learning or math.",150
+IC011Q08TA,Never or hardly ever,Frequency of use at school: Doing homework on a school computer.,965
+IC011Q08TA,Once or twice a month,Frequency of use at school: Doing homework on a school computer.,1058
+IC011Q08TA,Once or twice a week,Frequency of use at school: Doing homework on a school computer.,857
+IC011Q08TA,Almost every day,Frequency of use at school: Doing homework on a school computer.,468
+IC011Q08TA,Every day,Frequency of use at school: Doing homework on a school computer.,223
+IC011Q09TA,Never or hardly ever,Frequency of use at school: Using school computers for group work and communication with other students.,1270
+IC011Q09TA,Once or twice a month,Frequency of use at school: Using school computers for group work and communication with other students.,1018
+IC011Q09TA,Once or twice a week,Frequency of use at school: Using school computers for group work and communication with other students.,749
+IC011Q09TA,Almost every day,Frequency of use at school: Using school computers for group work and communication with other students.,339
+IC011Q09TA,Every day,Frequency of use at school: Using school computers for group work and communication with other students.,202
+IC013Q01NA,Strongly disagree,I forget about time when I'm using digital devices.,203
+IC013Q01NA,Disagree,I forget about time when I'm using digital devices.,964
+IC013Q01NA,Agree,I forget about time when I'm using digital devices.,1756
+IC013Q01NA,Strongly agree,I forget about time when I'm using digital devices.,662
+IC013Q04NA,Strongly disagree,"The Internet is a great resource for obtaining information I am interested in (e.g. news, sports, dictionary).",70
+IC013Q04NA,Disagree,"The Internet is a great resource for obtaining information I am interested in (e.g. news, sports, dictionary).",184
+IC013Q04NA,Agree,"The Internet is a great resource for obtaining information I am interested in (e.g. news, sports, dictionary).",1901
+IC013Q04NA,Strongly agree,"The Internet is a great resource for obtaining information I am interested in (e.g. news, sports, dictionary).",1415
+IC013Q05NA,Strongly disagree,It is very useful to have Social Networks on the Internet.,97
+IC013Q05NA,Disagree,It is very useful to have Social Networks on the Internet.,286
+IC013Q05NA,Agree,It is very useful to have Social Networks on the Internet.,1975
+IC013Q05NA,Strongly agree,It is very useful to have Social Networks on the Internet.,1201
+IC013Q11NA,Strongly disagree,I am really excited discovering new digital devices or applications.,145
+IC013Q11NA,Disagree,I am really excited discovering new digital devices or applications.,862
+IC013Q11NA,Agree,I am really excited discovering new digital devices or applications.,1802
+IC013Q11NA,Strongly agree,I am really excited discovering new digital devices or applications.,738
+IC013Q12NA,Strongly disagree,I really feel bad if no Internet connection is possible.,294
+IC013Q12NA,Disagree,I really feel bad if no Internet connection is possible.,1163
+IC013Q12NA,Agree,I really feel bad if no Internet connection is possible.,1390
+IC013Q12NA,Strongly agree,I really feel bad if no Internet connection is possible.,715
+IC013Q13NA,Strongly disagree,I like using digital devices.,55
+IC013Q13NA,Disagree,I like using digital devices.,137
+IC013Q13NA,Agree,I like using digital devices.,1940
+IC013Q13NA,Strongly agree,I like using digital devices.,1432
+IC014Q03NA,Strongly disagree,I feel comfortable using digital devices that I am less familiar with.,114
+IC014Q03NA,Disagree,I feel comfortable using digital devices that I am less familiar with.,744
+IC014Q03NA,Agree,I feel comfortable using digital devices that I am less familiar with.,2032
+IC014Q03NA,Strongly agree,I feel comfortable using digital devices that I am less familiar with.,649
+IC014Q04NA,Strongly disagree,"If my friends and relatives want to buy new digital devices or applications, I can give them advice.",130
+IC014Q04NA,Disagree,"If my friends and relatives want to buy new digital devices or applications, I can give them advice.",608
+IC014Q04NA,Agree,"If my friends and relatives want to buy new digital devices or applications, I can give them advice.",2041
+IC014Q04NA,Strongly agree,"If my friends and relatives want to buy new digital devices or applications, I can give them advice.",753
+IC014Q06NA,Strongly disagree,I feel comfortable using my digital devices at home.,45
+IC014Q06NA,Disagree,I feel comfortable using my digital devices at home.,102
+IC014Q06NA,Agree,I feel comfortable using my digital devices at home.,1697
+IC014Q06NA,Strongly agree,I feel comfortable using my digital devices at home.,1679
+IC014Q08NA,Strongly disagree,"When I come across problems with digital devices, I think I can solve them.",90
+IC014Q08NA,Disagree,"When I come across problems with digital devices, I think I can solve them.",486
+IC014Q08NA,Agree,"When I come across problems with digital devices, I think I can solve them.",2050
+IC014Q08NA,Strongly agree,"When I come across problems with digital devices, I think I can solve them.",894
+IC014Q09NA,Strongly disagree,"If my friends and relatives have a problem with digital devices, I can help them.",136
+IC014Q09NA,Disagree,"If my friends and relatives have a problem with digital devices, I can help them.",563
+IC014Q09NA,Agree,"If my friends and relatives have a problem with digital devices, I can help them.",2010
+IC014Q09NA,Strongly agree,"If my friends and relatives have a problem with digital devices, I can help them.",795
+IC015Q02NA,Strongly disagree,"If I need new software, I install it by myself.",287
+IC015Q02NA,Disagree,"If I need new software, I install it by myself.",830
+IC015Q02NA,Agree,"If I need new software, I install it by myself.",1661
+IC015Q02NA,Strongly agree,"If I need new software, I install it by myself.",749
+IC015Q03NA,Strongly disagree,I read information about digital devices to be independent.,310
+IC015Q03NA,Disagree,I read information about digital devices to be independent.,1159
+IC015Q03NA,Agree,I read information about digital devices to be independent.,1579
+IC015Q03NA,Strongly agree,I read information about digital devices to be independent.,457
+IC015Q05NA,Strongly disagree,I use digital devices as I want to use them.,91
+IC015Q05NA,Disagree,I use digital devices as I want to use them.,262
+IC015Q05NA,Agree,I use digital devices as I want to use them.,2096
+IC015Q05NA,Strongly agree,I use digital devices as I want to use them.,1058
+IC015Q07NA,Strongly disagree,If I have a problem with digital devices I start to solve it on my own.,151
+IC015Q07NA,Disagree,If I have a problem with digital devices I start to solve it on my own.,561
+IC015Q07NA,Agree,If I have a problem with digital devices I start to solve it on my own.,2040
+IC015Q07NA,Strongly agree,If I have a problem with digital devices I start to solve it on my own.,756
+IC015Q09NA,Strongly disagree,"If I need a new application, I choose it by myself.",115
+IC015Q09NA,Disagree,"If I need a new application, I choose it by myself.",428
+IC015Q09NA,Agree,"If I need a new application, I choose it by myself.",2000
+IC015Q09NA,Strongly agree,"If I need a new application, I choose it by myself.",955
+IC016Q02NA,Strongly disagree,I like to exchange solutions to problems with digital devices with others on the Internet.,475
+IC016Q02NA,Disagree,I like to exchange solutions to problems with digital devices with others on the Internet.,1270
+IC016Q02NA,Agree,I like to exchange solutions to problems with digital devices with others on the Internet.,1435
+IC016Q02NA,Strongly agree,I like to exchange solutions to problems with digital devices with others on the Internet.,289
+IC016Q04NA,Strongly disagree,I like to meet friends and play computer and video games with them.,681
+IC016Q04NA,Disagree,I like to meet friends and play computer and video games with them.,920
+IC016Q04NA,Agree,I like to meet friends and play computer and video games with them.,1258
+IC016Q04NA,Strongly agree,I like to meet friends and play computer and video games with them.,599
+IC016Q05NA,Strongly disagree,I like to share information about digital devices with my friends.,364
+IC016Q05NA,Disagree,I like to share information about digital devices with my friends.,1079
+IC016Q05NA,Agree,I like to share information about digital devices with my friends.,1691
+IC016Q05NA,Strongly agree,I like to share information about digital devices with my friends.,328
+IC016Q07NA,Strongly disagree,I learn a lot about digital media by discussing with my friends and relatives.,328
+IC016Q07NA,Disagree,I learn a lot about digital media by discussing with my friends and relatives.,911
+IC016Q07NA,Agree,I learn a lot about digital media by discussing with my friends and relatives.,1831
+IC016Q07NA,Strongly agree,I learn a lot about digital media by discussing with my friends and relatives.,391
+ST004D01T,Female,gender,2257
+ST004D01T,Male,gender,2263

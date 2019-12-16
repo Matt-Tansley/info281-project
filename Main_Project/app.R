@@ -11,7 +11,7 @@ ui <- dashboardPage(skin = 'purple',
             menuItem("Home", tabName = "home", icon = icon("home")),
             menuItem("Map", tabName = "map", icon = icon("globe-americas")),
             menuItem("PIAAC", tabName = "piaac", icon = icon("chart-bar")),
-            menuItem("Education", tabName = "education", icon = icon("laptop"))
+            menuItem("PISA", tabName = "education", icon = icon("laptop"))
         )
     ),
     ## Body content
@@ -108,12 +108,40 @@ ui <- dashboardPage(skin = 'purple',
                                              box(id = "box_b", title = "BBB", width = '800px'))
                         )
                     )
-            )
+            ),
+            tabItem(tabName = "education",
+                    fluidRow(
+                        column(
+                            width = 4,
+                            box(
+                                width = NULL,
+                                title = "PISA Questions",
+                                height = "400px",
+                                selectInput("pisa_question",
+                                            "Select Question",
+                                            choices = pisa_questions$q_label),
+                                radioButtons("chart_type",
+                                             "Type of Chart",
+                                             choices = c("Pie",
+                                                         "Histogram"))
+                            )
+                        ),
+                        column(
+                            width = 8,
+                            box(
+                                width = NULL
+                            )
+                        )
+                    ))
         )
     )
 )
 
 server <- function(input, output) {
+
+    # Load data files -------------------------------------
+    pisa_questions <- read_csv("C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/info281-project/PISA 2015 Data Analysis/data/questions_to_analyse.csv")
+    
     set.seed(122)
     histdata <- rnorm(500)
     
