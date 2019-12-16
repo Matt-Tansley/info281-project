@@ -131,9 +131,9 @@ question_groups_to_csv(nas_removed_pisa_ict_questions_wrangled)
 # Visualising the data --------------------------------
 # Help from: https://homepage.divms.uiowa.edu/~luke/classes/STAT4580/catone.html#pie-charts-and-doughnut-charts
 # Count number of same rows.
-agg <- count(nas_removed_pisa_ict_questions_wrangled, q_name, response, q_label)
+pisa_agg <- count(nas_removed_pisa_ict_questions_wrangled, q_name, response, q_label)
 head(agg)
-question_groups_to_csv(agg)
+question_groups_to_csv(pisa_agg)
 
-agg_ord <- mutate(agg, q_label = reorder(q_label, -n, sum))
-
+selected_question <- filter(pisa_agg,
+                            q_name == 'IC001Q01TA')

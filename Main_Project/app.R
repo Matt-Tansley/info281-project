@@ -112,7 +112,7 @@ ui <- dashboardPage(skin = 'purple',
             tabItem(tabName = "education",
                     fluidRow(
                         column(
-                            width = 4,
+                            width = 5,
                             box(
                                 width = NULL,
                                 title = "PISA Questions",
@@ -123,11 +123,15 @@ ui <- dashboardPage(skin = 'purple',
                                 radioButtons("chart_type",
                                              "Type of Chart",
                                              choices = c("Pie",
-                                                         "Histogram"))
+                                                         "Histogram",
+                                                         "Waffle",
+                                                         "Lollipop")),
+                                textOutput("q"),
+                                uiOutput("a")
                             )
                         ),
                         column(
-                            width = 8,
+                            width = 7,
                             box(
                                 width = NULL
                             )
@@ -142,13 +146,16 @@ server <- function(input, output) {
     # Load data files -------------------------------------
     pisa_questions <- read_csv("C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/info281-project/PISA 2015 Data Analysis/data/questions_to_analyse.csv")
     
-    set.seed(122)
-    histdata <- rnorm(500)
-    
-    output$plot1 <- renderPlot({
-        data <- histdata[seq_len(input$slider)]
-        hist(data)
+    selected_question <- reactive({
+        input$pisa_question
     })
+    
+    question_responses <- reactive({
+        filter(pisa_agg, q_name == 'IC001Q01TA')
+    })
+    
+    output$q <- renderText(selected_question())
+    output$a <- renderTable({question_responses()})
 }
 
 shinyApp(ui, server)
