@@ -1,0 +1,81 @@
+﻿q_name,q_label
+ST004D01T,gender
+IC001Q01TA,Available for you to use at home: Desktop computer
+IC001Q02TA,"Available for you to use at home: Portable laptop, or notebook"
+IC001Q03TA,"Available for you to use at home: <Tablet computer> (e.g. <iPad®>, <BlackBerry® PlayBook>)"
+IC001Q04TA,Available for you to use at home: Internet connection
+IC001Q05TA,"Available for you to use at home: <Video games console>, e.g. <Sony® PlayStation®>"
+IC001Q06TA,Available for you to use at home: <Cell phone> (without Internet access)
+IC001Q07TA,Available for you to use at home: <Cell phone> (with Internet access)
+IC001Q08TA,"Available for you to use at home: Portable music player (Mp3\Mp4 player, iPod® or similar)"
+IC001Q09TA,Available for you to use at home: Printer
+IC001Q10TA,Available for you to use at home: USB (memory) stick
+IC001Q11TA,"Available for you to use at home: <ebook reader>, e.g. <Amazon® Kindle>"
+IC009Q01TA,Digitial devices available at school: Desktop computer
+IC009Q02TA,Digitial devices available at school: Portable laptop or notebook
+IC009Q05NA,Digitial devices available at school: Internet connected school computers
+IC009Q06NA,Digitial devices available at school: Internet connection via wireless network
+IC009Q07NA,"Digitial devices available at school: Storage space for school-related data, e.g. a folder for own documents"
+IC009Q08TA,Digitial devices available at school: USB (memory) stick
+IC009Q09TA,"Digitial devices available at school: <ebook reader>, e.g. <Amazon® Kindle>"
+IC009Q10NA,"Digitial devices available at school: Data projector, e.g. for slide presentations"
+IC009Q11NA,"Digitial devices available at school: Interactive Whiteboard, e.g. <Smartboard®>"
+IC002Q01NA,How old were you when you first used a digital device?
+IC003Q01TA,How old were you when you first used a computer?
+IC004Q01TA,How old were you when you first accessed the Internet?
+IC005Q01TA,"During a typical weekday, for how long do you use the Internet at school?"
+IC006Q01TA,"During a typical weekday, for how long do you use the Internet outside of school?"
+IC007Q01TA,"On a typical weekend day, for how long do you use the Internet outside of school?"
+IC008Q01TA,Use digital devices outside school for playing one-player games.
+IC008Q02TA,Use digital devices outside school for playing collaborative online games.
+IC008Q03TA,Use digital devices outside school for using email.
+IC008Q04TA,Use digital devices outside school for <Chatting online> (e.g. <MSN®>).
+IC008Q05TA,"Use digital devices outside school for social networks (e.g. <Facebook>, <MySpace>)."
+IC008Q07NA,"Use digital devices outside school for online games\Social Networks (e.g. <Farmville®>, <The Sims Social>)."
+IC008Q08TA,"Use digital devices outside school for browsing the Internet for fun videos, e.g. <YouTube>)."
+IC008Q09TA,Use digital devices outside school for reading news on the Internet (e.g. current affairs).
+IC008Q10TA,Use digital devices outside school for obtaining practical information from the Internet
+IC008Q11TA,"Use digital devices outside school for downloading music, films, games or software from the Internet."
+IC008Q12TA,Use digital devices outside school for uploading your own created contents for sharing
+IC008Q13NA,Use digital devices outside school for downloading new apps on a mobile device.
+IC010Q01TA,Frequency of use outside of school: Browsing the Internet for schoolwork (e.g. for preparing an essay or presentation
+IC010Q02NA,"Frequency of use outside of school: Browsing the Internet to follow up lessons, e.g. for finding explanations."
+IC010Q03TA,Frequency of use outside of school: Using email for communication with other students about schoolwork.
+IC010Q04TA,Frequency of use outside of school: Using email for communication with teacher\submit of homework or other schoolwork
+IC010Q05NA,Frequency of use outside of school: Using Social Networks for communication with other students about schoolwork.
+IC010Q06NA,Frequency of use outside of school: Using Social Networks for communication with teachers.
+IC010Q07TA,Frequency of use outside of school: Download\upload\browsing from school website (e.g. time table or course materials
+IC010Q08TA,"Frequency of use outside of school: Checking the schools website for announcements, e.g. absence of teachers."
+IC010Q09NA,Frequency of use outside of school: Doing homework on a computer.
+IC010Q10NA,Frequency of use outside of school: Doing homework on a mobile device.
+IC010Q11NA,Frequency of use outside of school: Downloading learning apps on a mobile device.
+IC010Q12NA,Frequency of use outside of school: Downloading science learning apps on a mobile device.
+IC011Q01TA,Frequency of use at school: <Chatting on line> at school.
+IC011Q02TA,Frequency of use at school: Using email at school.
+IC011Q03TA,Frequency of use at school: Browsing the Internet for schoolwork.
+IC011Q04TA,Frequency of use at school: Download\upload\browse schools web (e.g. <intranet>).
+IC011Q05TA,Frequency of use at school: Posting my work on the schools website.
+IC011Q06TA,Frequency of use at school: Playing simulations at school.
+IC011Q07TA,"Frequency of use at school: Practicing and drilling, foreign language learning or math."
+IC011Q08TA,Frequency of use at school: Doing homework on a school computer.
+IC011Q09TA,Frequency of use at school: Using school computers for group work and communication with other students.
+IC013Q01NA,I forget about time when I'm using digital devices.
+IC013Q04NA,"The Internet is a great resource for obtaining information I am interested in (e.g. news, sports, dictionary)."
+IC013Q05NA,It is very useful to have Social Networks on the Internet.
+IC013Q11NA,I am really excited discovering new digital devices or applications.
+IC013Q12NA,I really feel bad if no Internet connection is possible.
+IC013Q13NA,I like using digital devices.
+IC014Q03NA,I feel comfortable using digital devices that I am less familiar with.
+IC014Q04NA,"If my friends and relatives want to buy new digital devices or applications, I can give them advice."
+IC014Q06NA,I feel comfortable using my digital devices at home.
+IC014Q08NA,"When I come across problems with digital devices, I think I can solve them."
+IC014Q09NA,"If my friends and relatives have a problem with digital devices, I can help them."
+IC015Q02NA,"If I need new software, I install it by myself."
+IC015Q03NA,I read information about digital devices to be independent.
+IC015Q05NA,I use digital devices as I want to use them.
+IC015Q07NA,If I have a problem with digital devices I start to solve it on my own.
+IC015Q09NA,"If I need a new application, I choose it by myself."
+IC016Q02NA,I like to exchange solutions to problems with digital devices with others on the Internet.
+IC016Q04NA,I like to meet friends and play computer and video games with them.
+IC016Q05NA,I like to share information about digital devices with my friends.
+IC016Q07NA,I learn a lot about digital media by discussing with my friends and relatives.
