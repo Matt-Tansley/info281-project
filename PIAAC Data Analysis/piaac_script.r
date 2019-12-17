@@ -248,6 +248,13 @@ selected_columns$self_reported_health_level <- factor(selected_columns$self_repo
 
 view(head(selected_columns))
 
+piaac_cleaned <- filter(selected_columns, 
+                       gender %in% c('Male','Female'),
+                       used_computer %in% c('Yes','No')
+)
+
+write_csv(piaac_cleaned, "C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/info281-project/Main_Project/data/wrangled_piaac_data.csv")
+
 
 # Basic Demographics ----------------------------------
 demo_data <- selected_columns[c(1:11)]
