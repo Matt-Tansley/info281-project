@@ -2,6 +2,48 @@
 library(shinydashboard)
 library(leaflet)
 
+
+# Load data files -------------------------------------
+# PISA Data -------------------------------------------
+pisa_questions <- read_csv("C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/info281-project/PISA 2015 Data Analysis/data/questions_to_analyse.csv")
+wrangled_data <- read_csv("C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/info281-project/PISA 2015 Data Analysis/data/selected_questions_grouped/nas_removed_pisa_ict_questions_wrangled.csv")
+pisa_agg_percent <- wrangled_data %>%
+    group_by(q_name, q_label, gender, response) %>%
+    summarise(count=n()) %>%
+    mutate(pct=count/sum(count))
+pisa_agg_percent[,6] <- lapply(pisa_agg_percent[,6], scales::percent)
+pisa_agg_percent$response <- factor(pisa_agg_percent$response, 
+                                    levels = c(1:24),
+                                    labels = c("Yes, and I use it",
+                                               "Yes, but I don't use it",
+                                               "No",
+                                               "6 years old or younger",
+                                               "7-9 years old",
+                                               "10-12 years old",
+                                               "13 years old or older",
+                                               "I have never used a digital device until today",
+                                               "No time",
+                                               "1-30 minutes per day",
+                                               "31-60 minutes per day",
+                                               "Between 1 hour and 2 hours per day",
+                                               "Between 2 hours and 4 hours per day",
+                                               "Between 4 hours and 6 hours per day",
+                                               "More than 6 hours per day",
+                                               "Never or hardly ever",
+                                               "Once or twice a month",
+                                               "Once or twice a week",
+                                               "Almost every day",
+                                               "Every day",
+                                               "Strongly disagree",
+                                               "Disagree",
+                                               "Agree",
+                                               "Strongly agree"
+                                    ))
+
+# InternetNZ / Map data -------------------------------
+
+
+
 ui <- dashboardPage(skin = 'purple',
     dashboardHeader(title = "Digital Inclusion Dashboard",
                     titleWidth = '300px'),
@@ -109,53 +151,86 @@ ui <- dashboardPage(skin = 'purple',
                         )
                     )
             ),
+            # Third tab content
             tabItem(tabName = "education",
                     fluidRow(
-                        column(
-                            width = 5,
+                        column( width = 6,
                             box(
                                 width = NULL,
+                                height = '140px',
                                 title = "PISA Questions",
-                                height = "400px",
                                 selectInput("pisa_question",
                                             "Select Question",
-                                            choices = pisa_questions$q_label),
+                                            choices = pisa_questions[-1,]$q_label),
+                            )    
+                        ),
+                        column( width = 6,
+                                box(
+                                    width = NULL,
+                                    height = '140px',
                                 radioButtons("chart_type",
                                              "Type of Chart",
-                                             choices = c("Pie",
-                                                         "Histogram",
-                                                         "Waffle",
-                                                         "Lollipop")),
-                                textOutput("q"),
-                                uiOutput("a")
-                            )
+                                             choices = c("Bar",
+                                                         "Waffle"),
+                                             selected = "Bar"),
+                                )
                         ),
-                        column(
-                            width = 7,
-                            box(
-                                width = NULL
-                            )
+                    ),
+                    fluidRow(
+                        column(width = 12,
+                               box(
+                                   width = NULL,
+                                   height = NULL,
+                                   title = textOutput("q"),
+                                   plotOutput("pisa_plot")
+                               )    
                         )
-                    ))
+                    )
+                )
         )
     )
 )
 
 server <- function(input, output) {
-
-    # Load data files -------------------------------------
-    pisa_questions <- read_csv("C:/Users/30mat/Documents/VUW/2019/Tri 3/INFO 281 - 391/info281-project/PISA 2015 Data Analysis/data/questions_to_analyse.csv")
     
+    # Currently selected PISA question. 
     selected_question <- reactive({
         input$pisa_question
     })
     
+    # Responses based on currently selected question. 
     question_responses <- reactive({
-        filter(pisa_agg, q_name == 'IC001Q01TA')
+        filter(pisa_agg_percent, q_label == input$pisa_question)
     })
     
     output$q <- renderText(selected_question())
-    output$a <- renderTable({question_responses()})
+    
+    output$pisa_plot <- renderPlot({
+        switch(input$chart_type,
+               'Bar' = question_responses()%>%
+                   ggplot() +
+                   aes(x = response, y = count, fill = response, label = paste0(count," (",pct,")")) +
+                   geom_bar(stat = "identity", position = "dodge") +
+                   geom_text(stat = "identity", vjust = -0.5) +
+                   facet_wrap(~ gender, strip.position = "bottom") +
+                   labs(x = NULL, y = "Count", fill = "Response") +
+                   theme_classic() +
+                   theme(axis.text.x = element_text(angle = 45, hjust = 1, 
+                                                    size = 12, face = "bold"))+
+                   theme(axis.title.y = element_text(face = "bold", size = 16)) +
+                   scale_fill_viridis_d(),
+               'Waffle' = question_responses()%>%
+                   count(response, wt = count/10) %>%
+                   ggplot(aes(fill = response, values = n)) +
+                   geom_waffle(n_rows = 10, size = 0.33, colour = "white", flip = TRUE) +
+                   labs(fill = "Response") +
+                   facet_wrap(~ gender) + 
+                   scale_fill_viridis_d() +
+                   coord_equal() +
+                   theme_void() +
+                   theme_enhance_waffle()
+        )
+    })
 }
 
 shinyApp(ui, server)

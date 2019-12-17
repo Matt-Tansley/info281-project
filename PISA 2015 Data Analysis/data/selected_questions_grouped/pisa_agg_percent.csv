@@ -1,0 +1,683 @@
+q_name,q_label,gender,response,count,pct
+IC001Q01TA,Available for you to use at home: Desktop computer,Female,"Yes, and I use it",983,49.9%
+IC001Q01TA,Available for you to use at home: Desktop computer,Female,"Yes, but I don't use it",492,25.0%
+IC001Q01TA,Available for you to use at home: Desktop computer,Female,No,496,25.2%
+IC001Q01TA,Available for you to use at home: Desktop computer,Male,"Yes, and I use it",1219,62.2%
+IC001Q01TA,Available for you to use at home: Desktop computer,Male,"Yes, but I don't use it",332,16.9%
+IC001Q01TA,Available for you to use at home: Desktop computer,Male,No,410,20.9%
+IC001Q02TA,"Available for you to use at home: Portable laptop, or notebook",Female,"Yes, and I use it",1603,81.3%
+IC001Q02TA,"Available for you to use at home: Portable laptop, or notebook",Female,"Yes, but I don't use it",194,9.8%
+IC001Q02TA,"Available for you to use at home: Portable laptop, or notebook",Female,No,175,8.9%
+IC001Q02TA,"Available for you to use at home: Portable laptop, or notebook",Male,"Yes, and I use it",1500,76.4%
+IC001Q02TA,"Available for you to use at home: Portable laptop, or notebook",Male,"Yes, but I don't use it",274,14.0%
+IC001Q02TA,"Available for you to use at home: Portable laptop, or notebook",Male,No,189,9.6%
+IC001Q03TA,"Available for you to use at home: <Tablet computer> (e.g. <iPad®>, <BlackBerry® PlayBook>)",Female,"Yes, and I use it",1070,54.3%
+IC001Q03TA,"Available for you to use at home: <Tablet computer> (e.g. <iPad®>, <BlackBerry® PlayBook>)",Female,"Yes, but I don't use it",496,25.2%
+IC001Q03TA,"Available for you to use at home: <Tablet computer> (e.g. <iPad®>, <BlackBerry® PlayBook>)",Female,No,405,20.5%
+IC001Q03TA,"Available for you to use at home: <Tablet computer> (e.g. <iPad®>, <BlackBerry® PlayBook>)",Male,"Yes, and I use it",1159,59.5%
+IC001Q03TA,"Available for you to use at home: <Tablet computer> (e.g. <iPad®>, <BlackBerry® PlayBook>)",Male,"Yes, but I don't use it",421,21.6%
+IC001Q03TA,"Available for you to use at home: <Tablet computer> (e.g. <iPad®>, <BlackBerry® PlayBook>)",Male,No,369,18.9%
+IC001Q04TA,Available for you to use at home: Internet connection,Female,"Yes, and I use it",1869,95.0%
+IC001Q04TA,Available for you to use at home: Internet connection,Female,"Yes, but I don't use it",24,1.2%
+IC001Q04TA,Available for you to use at home: Internet connection,Female,No,74,3.8%
+IC001Q04TA,Available for you to use at home: Internet connection,Male,"Yes, and I use it",1875,95.8%
+IC001Q04TA,Available for you to use at home: Internet connection,Male,"Yes, but I don't use it",27,1.4%
+IC001Q04TA,Available for you to use at home: Internet connection,Male,No,56,2.9%
+IC001Q05TA,"Available for you to use at home: <Video games console>, e.g. <Sony® PlayStation®>",Female,"Yes, and I use it",644,32.8%
+IC001Q05TA,"Available for you to use at home: <Video games console>, e.g. <Sony® PlayStation®>",Female,"Yes, but I don't use it",789,40.2%
+IC001Q05TA,"Available for you to use at home: <Video games console>, e.g. <Sony® PlayStation®>",Female,No,532,27.1%
+IC001Q05TA,"Available for you to use at home: <Video games console>, e.g. <Sony® PlayStation®>",Male,"Yes, and I use it",1386,70.8%
+IC001Q05TA,"Available for you to use at home: <Video games console>, e.g. <Sony® PlayStation®>",Male,"Yes, but I don't use it",274,14.0%
+IC001Q05TA,"Available for you to use at home: <Video games console>, e.g. <Sony® PlayStation®>",Male,No,298,15.2%
+IC001Q06TA,Available for you to use at home: <Cell phone> (without Internet access),Female,"Yes, and I use it",587,30.0%
+IC001Q06TA,Available for you to use at home: <Cell phone> (without Internet access),Female,"Yes, but I don't use it",455,23.2%
+IC001Q06TA,Available for you to use at home: <Cell phone> (without Internet access),Female,No,916,46.8%
+IC001Q06TA,Available for you to use at home: <Cell phone> (without Internet access),Male,"Yes, and I use it",742,38.1%
+IC001Q06TA,Available for you to use at home: <Cell phone> (without Internet access),Male,"Yes, but I don't use it",376,19.3%
+IC001Q06TA,Available for you to use at home: <Cell phone> (without Internet access),Male,No,827,42.5%
+IC001Q07TA,Available for you to use at home: <Cell phone> (with Internet access),Female,"Yes, and I use it",1813,92.1%
+IC001Q07TA,Available for you to use at home: <Cell phone> (with Internet access),Female,"Yes, but I don't use it",101,5.1%
+IC001Q07TA,Available for you to use at home: <Cell phone> (with Internet access),Female,No,55,2.8%
+IC001Q07TA,Available for you to use at home: <Cell phone> (with Internet access),Male,"Yes, and I use it",1739,88.5%
+IC001Q07TA,Available for you to use at home: <Cell phone> (with Internet access),Male,"Yes, but I don't use it",128,6.5%
+IC001Q07TA,Available for you to use at home: <Cell phone> (with Internet access),Male,No,98,5.0%
+IC001Q08TA,"Available for you to use at home: Portable music player (Mp3\Mp4 player, iPod® or similar)",Female,"Yes, and I use it",1352,68.6%
+IC001Q08TA,"Available for you to use at home: Portable music player (Mp3\Mp4 player, iPod® or similar)",Female,"Yes, but I don't use it",385,19.5%
+IC001Q08TA,"Available for you to use at home: Portable music player (Mp3\Mp4 player, iPod® or similar)",Female,No,233,11.8%
+IC001Q08TA,"Available for you to use at home: Portable music player (Mp3\Mp4 player, iPod® or similar)",Male,"Yes, and I use it",1336,68.5%
+IC001Q08TA,"Available for you to use at home: Portable music player (Mp3\Mp4 player, iPod® or similar)",Male,"Yes, but I don't use it",338,17.3%
+IC001Q08TA,"Available for you to use at home: Portable music player (Mp3\Mp4 player, iPod® or similar)",Male,No,276,14.2%
+IC001Q09TA,Available for you to use at home: Printer,Female,"Yes, and I use it",1336,68.2%
+IC001Q09TA,Available for you to use at home: Printer,Female,"Yes, but I don't use it",296,15.1%
+IC001Q09TA,Available for you to use at home: Printer,Female,No,327,16.7%
+IC001Q09TA,Available for you to use at home: Printer,Male,"Yes, and I use it",1277,65.6%
+IC001Q09TA,Available for you to use at home: Printer,Male,"Yes, but I don't use it",397,20.4%
+IC001Q09TA,Available for you to use at home: Printer,Male,No,274,14.1%
+IC001Q10TA,Available for you to use at home: USB (memory) stick,Female,"Yes, and I use it",1427,72.5%
+IC001Q10TA,Available for you to use at home: USB (memory) stick,Female,"Yes, but I don't use it",454,23.1%
+IC001Q10TA,Available for you to use at home: USB (memory) stick,Female,No,86,4.4%
+IC001Q10TA,Available for you to use at home: USB (memory) stick,Male,"Yes, and I use it",1457,75.0%
+IC001Q10TA,Available for you to use at home: USB (memory) stick,Male,"Yes, but I don't use it",402,20.7%
+IC001Q10TA,Available for you to use at home: USB (memory) stick,Male,No,84,4.3%
+IC001Q11TA,"Available for you to use at home: <ebook reader>, e.g. <Amazon® Kindle>",Female,"Yes, and I use it",245,12.5%
+IC001Q11TA,"Available for you to use at home: <ebook reader>, e.g. <Amazon® Kindle>",Female,"Yes, but I don't use it",370,18.9%
+IC001Q11TA,"Available for you to use at home: <ebook reader>, e.g. <Amazon® Kindle>",Female,No,1345,68.6%
+IC001Q11TA,"Available for you to use at home: <ebook reader>, e.g. <Amazon® Kindle>",Male,"Yes, and I use it",266,13.8%
+IC001Q11TA,"Available for you to use at home: <ebook reader>, e.g. <Amazon® Kindle>",Male,"Yes, but I don't use it",348,18.0%
+IC001Q11TA,"Available for you to use at home: <ebook reader>, e.g. <Amazon® Kindle>",Male,No,1317,68.2%
+IC002Q01NA,How old were you when you first used a digital device?,Female,6 years old or younger,542,27.7%
+IC002Q01NA,How old were you when you first used a digital device?,Female,7-9 years old,712,36.3%
+IC002Q01NA,How old were you when you first used a digital device?,Female,10-12 years old,547,27.9%
+IC002Q01NA,How old were you when you first used a digital device?,Female,13 years old or older,154,7.9%
+IC002Q01NA,How old were you when you first used a digital device?,Female,I have never used a digital device until today,5,0.3%
+IC002Q01NA,How old were you when you first used a digital device?,Male,6 years old or younger,706,36.0%
+IC002Q01NA,How old were you when you first used a digital device?,Male,7-9 years old,657,33.5%
+IC002Q01NA,How old were you when you first used a digital device?,Male,10-12 years old,436,22.2%
+IC002Q01NA,How old were you when you first used a digital device?,Male,13 years old or older,137,7.0%
+IC002Q01NA,How old were you when you first used a digital device?,Male,I have never used a digital device until today,26,1.3%
+IC003Q01TA,How old were you when you first used a computer?,Female,6 years old or younger,716,36.7%
+IC003Q01TA,How old were you when you first used a computer?,Female,7-9 years old,899,46.1%
+IC003Q01TA,How old were you when you first used a computer?,Female,10-12 years old,270,13.8%
+IC003Q01TA,How old were you when you first used a computer?,Female,13 years old or older,63,3.2%
+IC003Q01TA,How old were you when you first used a computer?,Female,I have never used a digital device until today,3,0.2%
+IC003Q01TA,How old were you when you first used a computer?,Male,6 years old or younger,767,39.7%
+IC003Q01TA,How old were you when you first used a computer?,Male,7-9 years old,819,42.4%
+IC003Q01TA,How old were you when you first used a computer?,Male,10-12 years old,278,14.4%
+IC003Q01TA,How old were you when you first used a computer?,Male,13 years old or older,63,3.3%
+IC003Q01TA,How old were you when you first used a computer?,Male,I have never used a digital device until today,3,0.2%
+IC004Q01TA,How old were you when you first accessed the Internet?,Female,6 years old or younger,378,19.5%
+IC004Q01TA,How old were you when you first accessed the Internet?,Female,7-9 years old,914,47.1%
+IC004Q01TA,How old were you when you first accessed the Internet?,Female,10-12 years old,548,28.2%
+IC004Q01TA,How old were you when you first accessed the Internet?,Female,13 years old or older,97,5.0%
+IC004Q01TA,How old were you when you first accessed the Internet?,Female,I have never used a digital device until today,5,0.3%
+IC004Q01TA,How old were you when you first accessed the Internet?,Male,6 years old or younger,432,22.5%
+IC004Q01TA,How old were you when you first accessed the Internet?,Male,7-9 years old,897,46.6%
+IC004Q01TA,How old were you when you first accessed the Internet?,Male,10-12 years old,495,25.7%
+IC004Q01TA,How old were you when you first accessed the Internet?,Male,13 years old or older,90,4.7%
+IC004Q01TA,How old were you when you first accessed the Internet?,Male,I have never used a digital device until today,10,0.5%
+IC005Q01TA,"During a typical weekday, for how long do you use the Internet at school?",Female,No time,123,6.4%
+IC005Q01TA,"During a typical weekday, for how long do you use the Internet at school?",Female,1-30 minutes per day,527,27.3%
+IC005Q01TA,"During a typical weekday, for how long do you use the Internet at school?",Female,31-60 minutes per day,440,22.8%
+IC005Q01TA,"During a typical weekday, for how long do you use the Internet at school?",Female,Between 1 hour and 2 hours per day,407,21.1%
+IC005Q01TA,"During a typical weekday, for how long do you use the Internet at school?",Female,Between 2 hours and 4 hours per day,239,12.4%
+IC005Q01TA,"During a typical weekday, for how long do you use the Internet at school?",Female,Between 4 hours and 6 hours per day,115,6.0%
+IC005Q01TA,"During a typical weekday, for how long do you use the Internet at school?",Female,More than 6 hours per day,79,4.1%
+IC005Q01TA,"During a typical weekday, for how long do you use the Internet at school?",Male,No time,237,12.4%
+IC005Q01TA,"During a typical weekday, for how long do you use the Internet at school?",Male,1-30 minutes per day,548,28.6%
+IC005Q01TA,"During a typical weekday, for how long do you use the Internet at school?",Male,31-60 minutes per day,454,23.7%
+IC005Q01TA,"During a typical weekday, for how long do you use the Internet at school?",Male,Between 1 hour and 2 hours per day,313,16.4%
+IC005Q01TA,"During a typical weekday, for how long do you use the Internet at school?",Male,Between 2 hours and 4 hours per day,194,10.1%
+IC005Q01TA,"During a typical weekday, for how long do you use the Internet at school?",Male,Between 4 hours and 6 hours per day,86,4.5%
+IC005Q01TA,"During a typical weekday, for how long do you use the Internet at school?",Male,More than 6 hours per day,81,4.2%
+IC006Q01TA,"During a typical weekday, for how long do you use the Internet outside of school?",Female,No time,45,2.3%
+IC006Q01TA,"During a typical weekday, for how long do you use the Internet outside of school?",Female,1-30 minutes per day,66,3.4%
+IC006Q01TA,"During a typical weekday, for how long do you use the Internet outside of school?",Female,31-60 minutes per day,123,6.4%
+IC006Q01TA,"During a typical weekday, for how long do you use the Internet outside of school?",Female,Between 1 hour and 2 hours per day,346,17.9%
+IC006Q01TA,"During a typical weekday, for how long do you use the Internet outside of school?",Female,Between 2 hours and 4 hours per day,608,31.5%
+IC006Q01TA,"During a typical weekday, for how long do you use the Internet outside of school?",Female,Between 4 hours and 6 hours per day,418,21.6%
+IC006Q01TA,"During a typical weekday, for how long do you use the Internet outside of school?",Female,More than 6 hours per day,326,16.9%
+IC006Q01TA,"During a typical weekday, for how long do you use the Internet outside of school?",Male,No time,40,2.1%
+IC006Q01TA,"During a typical weekday, for how long do you use the Internet outside of school?",Male,1-30 minutes per day,81,4.2%
+IC006Q01TA,"During a typical weekday, for how long do you use the Internet outside of school?",Male,31-60 minutes per day,163,8.5%
+IC006Q01TA,"During a typical weekday, for how long do you use the Internet outside of school?",Male,Between 1 hour and 2 hours per day,360,18.8%
+IC006Q01TA,"During a typical weekday, for how long do you use the Internet outside of school?",Male,Between 2 hours and 4 hours per day,560,29.2%
+IC006Q01TA,"During a typical weekday, for how long do you use the Internet outside of school?",Male,Between 4 hours and 6 hours per day,385,20.1%
+IC006Q01TA,"During a typical weekday, for how long do you use the Internet outside of school?",Male,More than 6 hours per day,328,17.1%
+IC007Q01TA,"On a typical weekend day, for how long do you use the Internet outside of school?",Female,No time,45,2.3%
+IC007Q01TA,"On a typical weekend day, for how long do you use the Internet outside of school?",Female,1-30 minutes per day,61,3.2%
+IC007Q01TA,"On a typical weekend day, for how long do you use the Internet outside of school?",Female,31-60 minutes per day,94,4.9%
+IC007Q01TA,"On a typical weekend day, for how long do you use the Internet outside of school?",Female,Between 1 hour and 2 hours per day,234,12.2%
+IC007Q01TA,"On a typical weekend day, for how long do you use the Internet outside of school?",Female,Between 2 hours and 4 hours per day,477,24.9%
+IC007Q01TA,"On a typical weekend day, for how long do you use the Internet outside of school?",Female,Between 4 hours and 6 hours per day,484,25.2%
+IC007Q01TA,"On a typical weekend day, for how long do you use the Internet outside of school?",Female,More than 6 hours per day,524,27.3%
+IC007Q01TA,"On a typical weekend day, for how long do you use the Internet outside of school?",Male,No time,38,2.0%
+IC007Q01TA,"On a typical weekend day, for how long do you use the Internet outside of school?",Male,1-30 minutes per day,83,4.4%
+IC007Q01TA,"On a typical weekend day, for how long do you use the Internet outside of school?",Male,31-60 minutes per day,136,7.1%
+IC007Q01TA,"On a typical weekend day, for how long do you use the Internet outside of school?",Male,Between 1 hour and 2 hours per day,238,12.5%
+IC007Q01TA,"On a typical weekend day, for how long do you use the Internet outside of school?",Male,Between 2 hours and 4 hours per day,480,25.2%
+IC007Q01TA,"On a typical weekend day, for how long do you use the Internet outside of school?",Male,Between 4 hours and 6 hours per day,392,20.6%
+IC007Q01TA,"On a typical weekend day, for how long do you use the Internet outside of school?",Male,More than 6 hours per day,540,28.3%
+IC008Q01TA,Use digital devices outside school for playing one-player games.,Female,Never or hardly ever,989,52.4%
+IC008Q01TA,Use digital devices outside school for playing one-player games.,Female,Once or twice a month,353,18.7%
+IC008Q01TA,Use digital devices outside school for playing one-player games.,Female,Once or twice a week,304,16.1%
+IC008Q01TA,Use digital devices outside school for playing one-player games.,Female,Almost every day,153,8.1%
+IC008Q01TA,Use digital devices outside school for playing one-player games.,Female,Every day,88,4.7%
+IC008Q01TA,Use digital devices outside school for playing one-player games.,Male,Never or hardly ever,292,15.6%
+IC008Q01TA,Use digital devices outside school for playing one-player games.,Male,Once or twice a month,258,13.8%
+IC008Q01TA,Use digital devices outside school for playing one-player games.,Male,Once or twice a week,576,30.8%
+IC008Q01TA,Use digital devices outside school for playing one-player games.,Male,Almost every day,428,22.9%
+IC008Q01TA,Use digital devices outside school for playing one-player games.,Male,Every day,317,16.9%
+IC008Q02TA,Use digital devices outside school for playing collaborative online games.,Female,Never or hardly ever,1306,69.8%
+IC008Q02TA,Use digital devices outside school for playing collaborative online games.,Female,Once or twice a month,259,13.9%
+IC008Q02TA,Use digital devices outside school for playing collaborative online games.,Female,Once or twice a week,173,9.3%
+IC008Q02TA,Use digital devices outside school for playing collaborative online games.,Female,Almost every day,73,3.9%
+IC008Q02TA,Use digital devices outside school for playing collaborative online games.,Female,Every day,59,3.2%
+IC008Q02TA,Use digital devices outside school for playing collaborative online games.,Male,Never or hardly ever,386,20.8%
+IC008Q02TA,Use digital devices outside school for playing collaborative online games.,Male,Once or twice a month,235,12.7%
+IC008Q02TA,Use digital devices outside school for playing collaborative online games.,Male,Once or twice a week,437,23.5%
+IC008Q02TA,Use digital devices outside school for playing collaborative online games.,Male,Almost every day,382,20.6%
+IC008Q02TA,Use digital devices outside school for playing collaborative online games.,Male,Every day,416,22.4%
+IC008Q03TA,Use digital devices outside school for using email.,Female,Never or hardly ever,233,12.4%
+IC008Q03TA,Use digital devices outside school for using email.,Female,Once or twice a month,405,21.6%
+IC008Q03TA,Use digital devices outside school for using email.,Female,Once or twice a week,617,33.0%
+IC008Q03TA,Use digital devices outside school for using email.,Female,Almost every day,397,21.2%
+IC008Q03TA,Use digital devices outside school for using email.,Female,Every day,220,11.8%
+IC008Q03TA,Use digital devices outside school for using email.,Male,Never or hardly ever,314,16.9%
+IC008Q03TA,Use digital devices outside school for using email.,Male,Once or twice a month,328,17.7%
+IC008Q03TA,Use digital devices outside school for using email.,Male,Once or twice a week,607,32.7%
+IC008Q03TA,Use digital devices outside school for using email.,Male,Almost every day,342,18.4%
+IC008Q03TA,Use digital devices outside school for using email.,Male,Every day,266,14.3%
+IC008Q04TA,Use digital devices outside school for <Chatting online> (e.g. <MSN®>).,Female,Never or hardly ever,107,5.7%
+IC008Q04TA,Use digital devices outside school for <Chatting online> (e.g. <MSN®>).,Female,Once or twice a month,70,3.7%
+IC008Q04TA,Use digital devices outside school for <Chatting online> (e.g. <MSN®>).,Female,Once or twice a week,184,9.7%
+IC008Q04TA,Use digital devices outside school for <Chatting online> (e.g. <MSN®>).,Female,Almost every day,443,23.5%
+IC008Q04TA,Use digital devices outside school for <Chatting online> (e.g. <MSN®>).,Female,Every day,1084,57.4%
+IC008Q04TA,Use digital devices outside school for <Chatting online> (e.g. <MSN®>).,Male,Never or hardly ever,135,7.2%
+IC008Q04TA,Use digital devices outside school for <Chatting online> (e.g. <MSN®>).,Male,Once or twice a month,66,3.5%
+IC008Q04TA,Use digital devices outside school for <Chatting online> (e.g. <MSN®>).,Male,Once or twice a week,245,13.2%
+IC008Q04TA,Use digital devices outside school for <Chatting online> (e.g. <MSN®>).,Male,Almost every day,500,26.8%
+IC008Q04TA,Use digital devices outside school for <Chatting online> (e.g. <MSN®>).,Male,Every day,917,49.2%
+IC008Q05TA,"Use digital devices outside school for social networks (e.g. <Facebook>, <MySpace>).",Female,Never or hardly ever,123,6.6%
+IC008Q05TA,"Use digital devices outside school for social networks (e.g. <Facebook>, <MySpace>).",Female,Once or twice a month,50,2.7%
+IC008Q05TA,"Use digital devices outside school for social networks (e.g. <Facebook>, <MySpace>).",Female,Once or twice a week,161,8.6%
+IC008Q05TA,"Use digital devices outside school for social networks (e.g. <Facebook>, <MySpace>).",Female,Almost every day,400,21.4%
+IC008Q05TA,"Use digital devices outside school for social networks (e.g. <Facebook>, <MySpace>).",Female,Every day,1135,60.7%
+IC008Q05TA,"Use digital devices outside school for social networks (e.g. <Facebook>, <MySpace>).",Male,Never or hardly ever,187,10.1%
+IC008Q05TA,"Use digital devices outside school for social networks (e.g. <Facebook>, <MySpace>).",Male,Once or twice a month,74,4.0%
+IC008Q05TA,"Use digital devices outside school for social networks (e.g. <Facebook>, <MySpace>).",Male,Once or twice a week,236,12.7%
+IC008Q05TA,"Use digital devices outside school for social networks (e.g. <Facebook>, <MySpace>).",Male,Almost every day,465,25.0%
+IC008Q05TA,"Use digital devices outside school for social networks (e.g. <Facebook>, <MySpace>).",Male,Every day,896,48.2%
+IC008Q07NA,"Use digital devices outside school for online games\Social Networks (e.g. <Farmville®>, <The Sims Social>).",Female,Never or hardly ever,1198,64.3%
+IC008Q07NA,"Use digital devices outside school for online games\Social Networks (e.g. <Farmville®>, <The Sims Social>).",Female,Once or twice a month,276,14.8%
+IC008Q07NA,"Use digital devices outside school for online games\Social Networks (e.g. <Farmville®>, <The Sims Social>).",Female,Once or twice a week,183,9.8%
+IC008Q07NA,"Use digital devices outside school for online games\Social Networks (e.g. <Farmville®>, <The Sims Social>).",Female,Almost every day,100,5.4%
+IC008Q07NA,"Use digital devices outside school for online games\Social Networks (e.g. <Farmville®>, <The Sims Social>).",Female,Every day,105,5.6%
+IC008Q07NA,"Use digital devices outside school for online games\Social Networks (e.g. <Farmville®>, <The Sims Social>).",Male,Never or hardly ever,963,51.8%
+IC008Q07NA,"Use digital devices outside school for online games\Social Networks (e.g. <Farmville®>, <The Sims Social>).",Male,Once or twice a month,220,11.8%
+IC008Q07NA,"Use digital devices outside school for online games\Social Networks (e.g. <Farmville®>, <The Sims Social>).",Male,Once or twice a week,245,13.2%
+IC008Q07NA,"Use digital devices outside school for online games\Social Networks (e.g. <Farmville®>, <The Sims Social>).",Male,Almost every day,201,10.8%
+IC008Q07NA,"Use digital devices outside school for online games\Social Networks (e.g. <Farmville®>, <The Sims Social>).",Male,Every day,231,12.4%
+IC008Q08TA,"Use digital devices outside school for browsing the Internet for fun videos, e.g. <YouTube>).",Female,Never or hardly ever,98,5.2%
+IC008Q08TA,"Use digital devices outside school for browsing the Internet for fun videos, e.g. <YouTube>).",Female,Once or twice a month,120,6.4%
+IC008Q08TA,"Use digital devices outside school for browsing the Internet for fun videos, e.g. <YouTube>).",Female,Once or twice a week,396,21.1%
+IC008Q08TA,"Use digital devices outside school for browsing the Internet for fun videos, e.g. <YouTube>).",Female,Almost every day,521,27.8%
+IC008Q08TA,"Use digital devices outside school for browsing the Internet for fun videos, e.g. <YouTube>).",Female,Every day,738,39.4%
+IC008Q08TA,"Use digital devices outside school for browsing the Internet for fun videos, e.g. <YouTube>).",Male,Never or hardly ever,68,3.7%
+IC008Q08TA,"Use digital devices outside school for browsing the Internet for fun videos, e.g. <YouTube>).",Male,Once or twice a month,94,5.1%
+IC008Q08TA,"Use digital devices outside school for browsing the Internet for fun videos, e.g. <YouTube>).",Male,Once or twice a week,284,15.3%
+IC008Q08TA,"Use digital devices outside school for browsing the Internet for fun videos, e.g. <YouTube>).",Male,Almost every day,530,28.6%
+IC008Q08TA,"Use digital devices outside school for browsing the Internet for fun videos, e.g. <YouTube>).",Male,Every day,876,47.3%
+IC008Q09TA,Use digital devices outside school for reading news on the Internet (e.g. current affairs).,Female,Never or hardly ever,397,21.4%
+IC008Q09TA,Use digital devices outside school for reading news on the Internet (e.g. current affairs).,Female,Once or twice a month,414,22.3%
+IC008Q09TA,Use digital devices outside school for reading news on the Internet (e.g. current affairs).,Female,Once or twice a week,550,29.6%
+IC008Q09TA,Use digital devices outside school for reading news on the Internet (e.g. current affairs).,Female,Almost every day,302,16.3%
+IC008Q09TA,Use digital devices outside school for reading news on the Internet (e.g. current affairs).,Female,Every day,195,10.5%
+IC008Q09TA,Use digital devices outside school for reading news on the Internet (e.g. current affairs).,Male,Never or hardly ever,370,20.1%
+IC008Q09TA,Use digital devices outside school for reading news on the Internet (e.g. current affairs).,Male,Once or twice a month,303,16.4%
+IC008Q09TA,Use digital devices outside school for reading news on the Internet (e.g. current affairs).,Male,Once or twice a week,492,26.7%
+IC008Q09TA,Use digital devices outside school for reading news on the Internet (e.g. current affairs).,Male,Almost every day,375,20.3%
+IC008Q09TA,Use digital devices outside school for reading news on the Internet (e.g. current affairs).,Male,Every day,305,16.5%
+IC008Q10TA,Use digital devices outside school for obtaining practical information from the Internet,Female,Never or hardly ever,306,16.4%
+IC008Q10TA,Use digital devices outside school for obtaining practical information from the Internet,Female,Once or twice a month,376,20.2%
+IC008Q10TA,Use digital devices outside school for obtaining practical information from the Internet,Female,Once or twice a week,628,33.7%
+IC008Q10TA,Use digital devices outside school for obtaining practical information from the Internet,Female,Almost every day,364,19.5%
+IC008Q10TA,Use digital devices outside school for obtaining practical information from the Internet,Female,Every day,188,10.1%
+IC008Q10TA,Use digital devices outside school for obtaining practical information from the Internet,Male,Never or hardly ever,234,12.7%
+IC008Q10TA,Use digital devices outside school for obtaining practical information from the Internet,Male,Once or twice a month,300,16.3%
+IC008Q10TA,Use digital devices outside school for obtaining practical information from the Internet,Male,Once or twice a week,601,32.7%
+IC008Q10TA,Use digital devices outside school for obtaining practical information from the Internet,Male,Almost every day,435,23.7%
+IC008Q10TA,Use digital devices outside school for obtaining practical information from the Internet,Male,Every day,266,14.5%
+IC008Q11TA,"Use digital devices outside school for downloading music, films, games or software from the Internet.",Female,Never or hardly ever,245,13.2%
+IC008Q11TA,"Use digital devices outside school for downloading music, films, games or software from the Internet.",Female,Once or twice a month,372,20.0%
+IC008Q11TA,"Use digital devices outside school for downloading music, films, games or software from the Internet.",Female,Once or twice a week,505,27.1%
+IC008Q11TA,"Use digital devices outside school for downloading music, films, games or software from the Internet.",Female,Almost every day,396,21.3%
+IC008Q11TA,"Use digital devices outside school for downloading music, films, games or software from the Internet.",Female,Every day,344,18.5%
+IC008Q11TA,"Use digital devices outside school for downloading music, films, games or software from the Internet.",Male,Never or hardly ever,191,10.3%
+IC008Q11TA,"Use digital devices outside school for downloading music, films, games or software from the Internet.",Male,Once or twice a month,274,14.8%
+IC008Q11TA,"Use digital devices outside school for downloading music, films, games or software from the Internet.",Male,Once or twice a week,506,27.4%
+IC008Q11TA,"Use digital devices outside school for downloading music, films, games or software from the Internet.",Male,Almost every day,482,26.1%
+IC008Q11TA,"Use digital devices outside school for downloading music, films, games or software from the Internet.",Male,Every day,396,21.4%
+IC008Q12TA,Use digital devices outside school for uploading your own created contents for sharing,Female,Never or hardly ever,1160,62.6%
+IC008Q12TA,Use digital devices outside school for uploading your own created contents for sharing,Female,Once or twice a month,288,15.6%
+IC008Q12TA,Use digital devices outside school for uploading your own created contents for sharing,Female,Once or twice a week,191,10.3%
+IC008Q12TA,Use digital devices outside school for uploading your own created contents for sharing,Female,Almost every day,103,5.6%
+IC008Q12TA,Use digital devices outside school for uploading your own created contents for sharing,Female,Every day,110,5.9%
+IC008Q12TA,Use digital devices outside school for uploading your own created contents for sharing,Male,Never or hardly ever,981,53.2%
+IC008Q12TA,Use digital devices outside school for uploading your own created contents for sharing,Male,Once or twice a month,335,18.2%
+IC008Q12TA,Use digital devices outside school for uploading your own created contents for sharing,Male,Once or twice a week,254,13.8%
+IC008Q12TA,Use digital devices outside school for uploading your own created contents for sharing,Male,Almost every day,139,7.5%
+IC008Q12TA,Use digital devices outside school for uploading your own created contents for sharing,Male,Every day,134,7.3%
+IC008Q13NA,Use digital devices outside school for downloading new apps on a mobile device.,Female,Never or hardly ever,239,12.8%
+IC008Q13NA,Use digital devices outside school for downloading new apps on a mobile device.,Female,Once or twice a month,837,45.0%
+IC008Q13NA,Use digital devices outside school for downloading new apps on a mobile device.,Female,Once or twice a week,465,25.0%
+IC008Q13NA,Use digital devices outside school for downloading new apps on a mobile device.,Female,Almost every day,177,9.5%
+IC008Q13NA,Use digital devices outside school for downloading new apps on a mobile device.,Female,Every day,143,7.7%
+IC008Q13NA,Use digital devices outside school for downloading new apps on a mobile device.,Male,Never or hardly ever,205,11.1%
+IC008Q13NA,Use digital devices outside school for downloading new apps on a mobile device.,Male,Once or twice a month,615,33.4%
+IC008Q13NA,Use digital devices outside school for downloading new apps on a mobile device.,Male,Once or twice a week,561,30.4%
+IC008Q13NA,Use digital devices outside school for downloading new apps on a mobile device.,Male,Almost every day,256,13.9%
+IC008Q13NA,Use digital devices outside school for downloading new apps on a mobile device.,Male,Every day,207,11.2%
+IC009Q01TA,Digitial devices available at school: Desktop computer,Female,"Yes, and I use it",1478,75.4%
+IC009Q01TA,Digitial devices available at school: Desktop computer,Female,"Yes, but I don't use it",402,20.5%
+IC009Q01TA,Digitial devices available at school: Desktop computer,Female,No,79,4.0%
+IC009Q01TA,Digitial devices available at school: Desktop computer,Male,"Yes, and I use it",1466,75.6%
+IC009Q01TA,Digitial devices available at school: Desktop computer,Male,"Yes, but I don't use it",327,16.9%
+IC009Q01TA,Digitial devices available at school: Desktop computer,Male,No,146,7.5%
+IC009Q02TA,Digitial devices available at school: Portable laptop or notebook,Female,"Yes, and I use it",1048,54.0%
+IC009Q02TA,Digitial devices available at school: Portable laptop or notebook,Female,"Yes, but I don't use it",443,22.8%
+IC009Q02TA,Digitial devices available at school: Portable laptop or notebook,Female,No,450,23.2%
+IC009Q02TA,Digitial devices available at school: Portable laptop or notebook,Male,"Yes, and I use it",1006,52.2%
+IC009Q02TA,Digitial devices available at school: Portable laptop or notebook,Male,"Yes, but I don't use it",390,20.2%
+IC009Q02TA,Digitial devices available at school: Portable laptop or notebook,Male,No,531,27.6%
+IC009Q05NA,Digitial devices available at school: Internet connected school computers,Female,"Yes, and I use it",1654,85.0%
+IC009Q05NA,Digitial devices available at school: Internet connected school computers,Female,"Yes, but I don't use it",251,12.9%
+IC009Q05NA,Digitial devices available at school: Internet connected school computers,Female,No,41,2.1%
+IC009Q05NA,Digitial devices available at school: Internet connected school computers,Male,"Yes, and I use it",1600,82.9%
+IC009Q05NA,Digitial devices available at school: Internet connected school computers,Male,"Yes, but I don't use it",249,12.9%
+IC009Q05NA,Digitial devices available at school: Internet connected school computers,Male,No,80,4.1%
+IC009Q06NA,Digitial devices available at school: Internet connection via wireless network,Female,"Yes, and I use it",1611,82.9%
+IC009Q06NA,Digitial devices available at school: Internet connection via wireless network,Female,"Yes, but I don't use it",231,11.9%
+IC009Q06NA,Digitial devices available at school: Internet connection via wireless network,Female,No,102,5.2%
+IC009Q06NA,Digitial devices available at school: Internet connection via wireless network,Male,"Yes, and I use it",1475,77.1%
+IC009Q06NA,Digitial devices available at school: Internet connection via wireless network,Male,"Yes, but I don't use it",248,13.0%
+IC009Q06NA,Digitial devices available at school: Internet connection via wireless network,Male,No,191,10.0%
+IC009Q07NA,"Digitial devices available at school: Storage space for school-related data, e.g. a folder for own documents",Female,"Yes, and I use it",1553,80.1%
+IC009Q07NA,"Digitial devices available at school: Storage space for school-related data, e.g. a folder for own documents",Female,"Yes, but I don't use it",251,12.9%
+IC009Q07NA,"Digitial devices available at school: Storage space for school-related data, e.g. a folder for own documents",Female,No,135,7.0%
+IC009Q07NA,"Digitial devices available at school: Storage space for school-related data, e.g. a folder for own documents",Male,"Yes, and I use it",1503,78.6%
+IC009Q07NA,"Digitial devices available at school: Storage space for school-related data, e.g. a folder for own documents",Male,"Yes, but I don't use it",257,13.4%
+IC009Q07NA,"Digitial devices available at school: Storage space for school-related data, e.g. a folder for own documents",Male,No,153,8.0%
+IC009Q08TA,Digitial devices available at school: USB (memory) stick,Female,"Yes, and I use it",672,34.7%
+IC009Q08TA,Digitial devices available at school: USB (memory) stick,Female,"Yes, but I don't use it",398,20.5%
+IC009Q08TA,Digitial devices available at school: USB (memory) stick,Female,No,869,44.8%
+IC009Q08TA,Digitial devices available at school: USB (memory) stick,Male,"Yes, and I use it",769,40.3%
+IC009Q08TA,Digitial devices available at school: USB (memory) stick,Male,"Yes, but I don't use it",363,19.0%
+IC009Q08TA,Digitial devices available at school: USB (memory) stick,Male,No,775,40.6%
+IC009Q09TA,"Digitial devices available at school: <ebook reader>, e.g. <Amazon® Kindle>",Female,"Yes, and I use it",78,4.1%
+IC009Q09TA,"Digitial devices available at school: <ebook reader>, e.g. <Amazon® Kindle>",Female,"Yes, but I don't use it",213,11.2%
+IC009Q09TA,"Digitial devices available at school: <ebook reader>, e.g. <Amazon® Kindle>",Female,No,1613,84.7%
+IC009Q09TA,"Digitial devices available at school: <ebook reader>, e.g. <Amazon® Kindle>",Male,"Yes, and I use it",169,9.0%
+IC009Q09TA,"Digitial devices available at school: <ebook reader>, e.g. <Amazon® Kindle>",Male,"Yes, but I don't use it",225,12.0%
+IC009Q09TA,"Digitial devices available at school: <ebook reader>, e.g. <Amazon® Kindle>",Male,No,1487,79.1%
+IC009Q10NA,"Digitial devices available at school: Data projector, e.g. for slide presentations",Female,"Yes, and I use it",992,51.0%
+IC009Q10NA,"Digitial devices available at school: Data projector, e.g. for slide presentations",Female,"Yes, but I don't use it",771,39.7%
+IC009Q10NA,"Digitial devices available at school: Data projector, e.g. for slide presentations",Female,No,181,9.3%
+IC009Q10NA,"Digitial devices available at school: Data projector, e.g. for slide presentations",Male,"Yes, and I use it",930,48.8%
+IC009Q10NA,"Digitial devices available at school: Data projector, e.g. for slide presentations",Male,"Yes, but I don't use it",695,36.5%
+IC009Q10NA,"Digitial devices available at school: Data projector, e.g. for slide presentations",Male,No,280,14.7%
+IC009Q11NA,"Digitial devices available at school: Interactive Whiteboard, e.g. <Smartboard®>",Female,"Yes, and I use it",500,25.9%
+IC009Q11NA,"Digitial devices available at school: Interactive Whiteboard, e.g. <Smartboard®>",Female,"Yes, but I don't use it",635,32.8%
+IC009Q11NA,"Digitial devices available at school: Interactive Whiteboard, e.g. <Smartboard®>",Female,No,799,41.3%
+IC009Q11NA,"Digitial devices available at school: Interactive Whiteboard, e.g. <Smartboard®>",Male,"Yes, and I use it",462,24.3%
+IC009Q11NA,"Digitial devices available at school: Interactive Whiteboard, e.g. <Smartboard®>",Male,"Yes, but I don't use it",547,28.8%
+IC009Q11NA,"Digitial devices available at school: Interactive Whiteboard, e.g. <Smartboard®>",Male,No,892,46.9%
+IC010Q01TA,Frequency of use outside of school: Browsing the Internet for schoolwork (e.g. for preparing an essay or presentation,Female,Never or hardly ever,134,7.3%
+IC010Q01TA,Frequency of use outside of school: Browsing the Internet for schoolwork (e.g. for preparing an essay or presentation,Female,Once or twice a month,271,14.7%
+IC010Q01TA,Frequency of use outside of school: Browsing the Internet for schoolwork (e.g. for preparing an essay or presentation,Female,Once or twice a week,765,41.5%
+IC010Q01TA,Frequency of use outside of school: Browsing the Internet for schoolwork (e.g. for preparing an essay or presentation,Female,Almost every day,480,26.1%
+IC010Q01TA,Frequency of use outside of school: Browsing the Internet for schoolwork (e.g. for preparing an essay or presentation,Female,Every day,192,10.4%
+IC010Q01TA,Frequency of use outside of school: Browsing the Internet for schoolwork (e.g. for preparing an essay or presentation,Male,Never or hardly ever,195,10.8%
+IC010Q01TA,Frequency of use outside of school: Browsing the Internet for schoolwork (e.g. for preparing an essay or presentation,Male,Once or twice a month,314,17.3%
+IC010Q01TA,Frequency of use outside of school: Browsing the Internet for schoolwork (e.g. for preparing an essay or presentation,Male,Once or twice a week,714,39.4%
+IC010Q01TA,Frequency of use outside of school: Browsing the Internet for schoolwork (e.g. for preparing an essay or presentation,Male,Almost every day,399,22.0%
+IC010Q01TA,Frequency of use outside of school: Browsing the Internet for schoolwork (e.g. for preparing an essay or presentation,Male,Every day,190,10.5%
+IC010Q02NA,"Frequency of use outside of school: Browsing the Internet to follow up lessons, e.g. for finding explanations.",Female,Never or hardly ever,291,15.9%
+IC010Q02NA,"Frequency of use outside of school: Browsing the Internet to follow up lessons, e.g. for finding explanations.",Female,Once or twice a month,440,24.1%
+IC010Q02NA,"Frequency of use outside of school: Browsing the Internet to follow up lessons, e.g. for finding explanations.",Female,Once or twice a week,674,36.9%
+IC010Q02NA,"Frequency of use outside of school: Browsing the Internet to follow up lessons, e.g. for finding explanations.",Female,Almost every day,301,16.5%
+IC010Q02NA,"Frequency of use outside of school: Browsing the Internet to follow up lessons, e.g. for finding explanations.",Female,Every day,121,6.6%
+IC010Q02NA,"Frequency of use outside of school: Browsing the Internet to follow up lessons, e.g. for finding explanations.",Male,Never or hardly ever,339,18.9%
+IC010Q02NA,"Frequency of use outside of school: Browsing the Internet to follow up lessons, e.g. for finding explanations.",Male,Once or twice a month,404,22.6%
+IC010Q02NA,"Frequency of use outside of school: Browsing the Internet to follow up lessons, e.g. for finding explanations.",Male,Once or twice a week,626,35.0%
+IC010Q02NA,"Frequency of use outside of school: Browsing the Internet to follow up lessons, e.g. for finding explanations.",Male,Almost every day,284,15.9%
+IC010Q02NA,"Frequency of use outside of school: Browsing the Internet to follow up lessons, e.g. for finding explanations.",Male,Every day,136,7.6%
+IC010Q03TA,Frequency of use outside of school: Using email for communication with other students about schoolwork.,Female,Never or hardly ever,608,33.3%
+IC010Q03TA,Frequency of use outside of school: Using email for communication with other students about schoolwork.,Female,Once or twice a month,435,23.8%
+IC010Q03TA,Frequency of use outside of school: Using email for communication with other students about schoolwork.,Female,Once or twice a week,459,25.2%
+IC010Q03TA,Frequency of use outside of school: Using email for communication with other students about schoolwork.,Female,Almost every day,219,12.0%
+IC010Q03TA,Frequency of use outside of school: Using email for communication with other students about schoolwork.,Female,Every day,103,5.6%
+IC010Q03TA,Frequency of use outside of school: Using email for communication with other students about schoolwork.,Male,Never or hardly ever,649,36.2%
+IC010Q03TA,Frequency of use outside of school: Using email for communication with other students about schoolwork.,Male,Once or twice a month,424,23.6%
+IC010Q03TA,Frequency of use outside of school: Using email for communication with other students about schoolwork.,Male,Once or twice a week,411,22.9%
+IC010Q03TA,Frequency of use outside of school: Using email for communication with other students about schoolwork.,Male,Almost every day,189,10.5%
+IC010Q03TA,Frequency of use outside of school: Using email for communication with other students about schoolwork.,Male,Every day,120,6.7%
+IC010Q04TA,Frequency of use outside of school: Using email for communication with teacher\submit of homework or other schoolwork,Female,Never or hardly ever,416,22.8%
+IC010Q04TA,Frequency of use outside of school: Using email for communication with teacher\submit of homework or other schoolwork,Female,Once or twice a month,629,34.4%
+IC010Q04TA,Frequency of use outside of school: Using email for communication with teacher\submit of homework or other schoolwork,Female,Once or twice a week,504,27.6%
+IC010Q04TA,Frequency of use outside of school: Using email for communication with teacher\submit of homework or other schoolwork,Female,Almost every day,188,10.3%
+IC010Q04TA,Frequency of use outside of school: Using email for communication with teacher\submit of homework or other schoolwork,Female,Every day,90,4.9%
+IC010Q04TA,Frequency of use outside of school: Using email for communication with teacher\submit of homework or other schoolwork,Male,Never or hardly ever,472,26.6%
+IC010Q04TA,Frequency of use outside of school: Using email for communication with teacher\submit of homework or other schoolwork,Male,Once or twice a month,565,31.9%
+IC010Q04TA,Frequency of use outside of school: Using email for communication with teacher\submit of homework or other schoolwork,Male,Once or twice a week,457,25.8%
+IC010Q04TA,Frequency of use outside of school: Using email for communication with teacher\submit of homework or other schoolwork,Male,Almost every day,174,9.8%
+IC010Q04TA,Frequency of use outside of school: Using email for communication with teacher\submit of homework or other schoolwork,Male,Every day,105,5.9%
+IC010Q05NA,Frequency of use outside of school: Using Social Networks for communication with other students about schoolwork.,Female,Never or hardly ever,272,14.9%
+IC010Q05NA,Frequency of use outside of school: Using Social Networks for communication with other students about schoolwork.,Female,Once or twice a month,336,18.4%
+IC010Q05NA,Frequency of use outside of school: Using Social Networks for communication with other students about schoolwork.,Female,Once or twice a week,542,29.7%
+IC010Q05NA,Frequency of use outside of school: Using Social Networks for communication with other students about schoolwork.,Female,Almost every day,374,20.5%
+IC010Q05NA,Frequency of use outside of school: Using Social Networks for communication with other students about schoolwork.,Female,Every day,299,16.4%
+IC010Q05NA,Frequency of use outside of school: Using Social Networks for communication with other students about schoolwork.,Male,Never or hardly ever,360,20.2%
+IC010Q05NA,Frequency of use outside of school: Using Social Networks for communication with other students about schoolwork.,Male,Once or twice a month,372,20.9%
+IC010Q05NA,Frequency of use outside of school: Using Social Networks for communication with other students about schoolwork.,Male,Once or twice a week,491,27.6%
+IC010Q05NA,Frequency of use outside of school: Using Social Networks for communication with other students about schoolwork.,Male,Almost every day,316,17.8%
+IC010Q05NA,Frequency of use outside of school: Using Social Networks for communication with other students about schoolwork.,Male,Every day,240,13.5%
+IC010Q06NA,Frequency of use outside of school: Using Social Networks for communication with teachers.,Female,Never or hardly ever,1276,70.3%
+IC010Q06NA,Frequency of use outside of school: Using Social Networks for communication with teachers.,Female,Once or twice a month,189,10.4%
+IC010Q06NA,Frequency of use outside of school: Using Social Networks for communication with teachers.,Female,Once or twice a week,155,8.5%
+IC010Q06NA,Frequency of use outside of school: Using Social Networks for communication with teachers.,Female,Almost every day,97,5.3%
+IC010Q06NA,Frequency of use outside of school: Using Social Networks for communication with teachers.,Female,Every day,98,5.4%
+IC010Q06NA,Frequency of use outside of school: Using Social Networks for communication with teachers.,Male,Never or hardly ever,1063,60.2%
+IC010Q06NA,Frequency of use outside of school: Using Social Networks for communication with teachers.,Male,Once or twice a month,221,12.5%
+IC010Q06NA,Frequency of use outside of school: Using Social Networks for communication with teachers.,Male,Once or twice a week,238,13.5%
+IC010Q06NA,Frequency of use outside of school: Using Social Networks for communication with teachers.,Male,Almost every day,138,7.8%
+IC010Q06NA,Frequency of use outside of school: Using Social Networks for communication with teachers.,Male,Every day,107,6.1%
+IC010Q07TA,Frequency of use outside of school: Download\upload\browsing from school website (e.g. time table or course materials,Female,Never or hardly ever,712,39.1%
+IC010Q07TA,Frequency of use outside of school: Download\upload\browsing from school website (e.g. time table or course materials,Female,Once or twice a month,516,28.4%
+IC010Q07TA,Frequency of use outside of school: Download\upload\browsing from school website (e.g. time table or course materials,Female,Once or twice a week,368,20.2%
+IC010Q07TA,Frequency of use outside of school: Download\upload\browsing from school website (e.g. time table or course materials,Female,Almost every day,146,8.0%
+IC010Q07TA,Frequency of use outside of school: Download\upload\browsing from school website (e.g. time table or course materials,Female,Every day,77,4.2%
+IC010Q07TA,Frequency of use outside of school: Download\upload\browsing from school website (e.g. time table or course materials,Male,Never or hardly ever,651,36.8%
+IC010Q07TA,Frequency of use outside of school: Download\upload\browsing from school website (e.g. time table or course materials,Male,Once or twice a month,468,26.5%
+IC010Q07TA,Frequency of use outside of school: Download\upload\browsing from school website (e.g. time table or course materials,Male,Once or twice a week,375,21.2%
+IC010Q07TA,Frequency of use outside of school: Download\upload\browsing from school website (e.g. time table or course materials,Male,Almost every day,167,9.4%
+IC010Q07TA,Frequency of use outside of school: Download\upload\browsing from school website (e.g. time table or course materials,Male,Every day,107,6.1%
+IC010Q08TA,"Frequency of use outside of school: Checking the schools website for announcements, e.g. absence of teachers.",Female,Never or hardly ever,731,40.4%
+IC010Q08TA,"Frequency of use outside of school: Checking the schools website for announcements, e.g. absence of teachers.",Female,Once or twice a month,456,25.2%
+IC010Q08TA,"Frequency of use outside of school: Checking the schools website for announcements, e.g. absence of teachers.",Female,Once or twice a week,357,19.7%
+IC010Q08TA,"Frequency of use outside of school: Checking the schools website for announcements, e.g. absence of teachers.",Female,Almost every day,178,9.8%
+IC010Q08TA,"Frequency of use outside of school: Checking the schools website for announcements, e.g. absence of teachers.",Female,Every day,88,4.9%
+IC010Q08TA,"Frequency of use outside of school: Checking the schools website for announcements, e.g. absence of teachers.",Male,Never or hardly ever,677,38.4%
+IC010Q08TA,"Frequency of use outside of school: Checking the schools website for announcements, e.g. absence of teachers.",Male,Once or twice a month,396,22.4%
+IC010Q08TA,"Frequency of use outside of school: Checking the schools website for announcements, e.g. absence of teachers.",Male,Once or twice a week,374,21.2%
+IC010Q08TA,"Frequency of use outside of school: Checking the schools website for announcements, e.g. absence of teachers.",Male,Almost every day,201,11.4%
+IC010Q08TA,"Frequency of use outside of school: Checking the schools website for announcements, e.g. absence of teachers.",Male,Every day,116,6.6%
+IC010Q09NA,Frequency of use outside of school: Doing homework on a computer.,Female,Never or hardly ever,139,7.6%
+IC010Q09NA,Frequency of use outside of school: Doing homework on a computer.,Female,Once or twice a month,229,12.6%
+IC010Q09NA,Frequency of use outside of school: Doing homework on a computer.,Female,Once or twice a week,589,32.3%
+IC010Q09NA,Frequency of use outside of school: Doing homework on a computer.,Female,Almost every day,526,28.9%
+IC010Q09NA,Frequency of use outside of school: Doing homework on a computer.,Female,Every day,338,18.6%
+IC010Q09NA,Frequency of use outside of school: Doing homework on a computer.,Male,Never or hardly ever,201,11.3%
+IC010Q09NA,Frequency of use outside of school: Doing homework on a computer.,Male,Once or twice a month,293,16.4%
+IC010Q09NA,Frequency of use outside of school: Doing homework on a computer.,Male,Once or twice a week,580,32.5%
+IC010Q09NA,Frequency of use outside of school: Doing homework on a computer.,Male,Almost every day,467,26.2%
+IC010Q09NA,Frequency of use outside of school: Doing homework on a computer.,Male,Every day,243,13.6%
+IC010Q10NA,Frequency of use outside of school: Doing homework on a mobile device.,Female,Never or hardly ever,523,28.9%
+IC010Q10NA,Frequency of use outside of school: Doing homework on a mobile device.,Female,Once or twice a month,410,22.6%
+IC010Q10NA,Frequency of use outside of school: Doing homework on a mobile device.,Female,Once or twice a week,436,24.1%
+IC010Q10NA,Frequency of use outside of school: Doing homework on a mobile device.,Female,Almost every day,290,16.0%
+IC010Q10NA,Frequency of use outside of school: Doing homework on a mobile device.,Female,Every day,153,8.4%
+IC010Q10NA,Frequency of use outside of school: Doing homework on a mobile device.,Male,Never or hardly ever,634,36.0%
+IC010Q10NA,Frequency of use outside of school: Doing homework on a mobile device.,Male,Once or twice a month,355,20.1%
+IC010Q10NA,Frequency of use outside of school: Doing homework on a mobile device.,Male,Once or twice a week,425,24.1%
+IC010Q10NA,Frequency of use outside of school: Doing homework on a mobile device.,Male,Almost every day,229,13.0%
+IC010Q10NA,Frequency of use outside of school: Doing homework on a mobile device.,Male,Every day,120,6.8%
+IC010Q11NA,Frequency of use outside of school: Downloading learning apps on a mobile device.,Female,Never or hardly ever,878,48.3%
+IC010Q11NA,Frequency of use outside of school: Downloading learning apps on a mobile device.,Female,Once or twice a month,506,27.8%
+IC010Q11NA,Frequency of use outside of school: Downloading learning apps on a mobile device.,Female,Once or twice a week,216,11.9%
+IC010Q11NA,Frequency of use outside of school: Downloading learning apps on a mobile device.,Female,Almost every day,139,7.6%
+IC010Q11NA,Frequency of use outside of school: Downloading learning apps on a mobile device.,Female,Every day,78,4.3%
+IC010Q11NA,Frequency of use outside of school: Downloading learning apps on a mobile device.,Male,Never or hardly ever,902,50.7%
+IC010Q11NA,Frequency of use outside of school: Downloading learning apps on a mobile device.,Male,Once or twice a month,398,22.4%
+IC010Q11NA,Frequency of use outside of school: Downloading learning apps on a mobile device.,Male,Once or twice a week,245,13.8%
+IC010Q11NA,Frequency of use outside of school: Downloading learning apps on a mobile device.,Male,Almost every day,131,7.4%
+IC010Q11NA,Frequency of use outside of school: Downloading learning apps on a mobile device.,Male,Every day,102,5.7%
+IC010Q12NA,Frequency of use outside of school: Downloading science learning apps on a mobile device.,Female,Never or hardly ever,1296,71.4%
+IC010Q12NA,Frequency of use outside of school: Downloading science learning apps on a mobile device.,Female,Once or twice a month,250,13.8%
+IC010Q12NA,Frequency of use outside of school: Downloading science learning apps on a mobile device.,Female,Once or twice a week,119,6.6%
+IC010Q12NA,Frequency of use outside of school: Downloading science learning apps on a mobile device.,Female,Almost every day,97,5.3%
+IC010Q12NA,Frequency of use outside of school: Downloading science learning apps on a mobile device.,Female,Every day,53,2.9%
+IC010Q12NA,Frequency of use outside of school: Downloading science learning apps on a mobile device.,Male,Never or hardly ever,1067,60.4%
+IC010Q12NA,Frequency of use outside of school: Downloading science learning apps on a mobile device.,Male,Once or twice a month,289,16.3%
+IC010Q12NA,Frequency of use outside of school: Downloading science learning apps on a mobile device.,Male,Once or twice a week,208,11.8%
+IC010Q12NA,Frequency of use outside of school: Downloading science learning apps on a mobile device.,Male,Almost every day,113,6.4%
+IC010Q12NA,Frequency of use outside of school: Downloading science learning apps on a mobile device.,Male,Every day,91,5.1%
+IC011Q01TA,Frequency of use at school: <Chatting on line> at school.,Female,Never or hardly ever,648,35.3%
+IC011Q01TA,Frequency of use at school: <Chatting on line> at school.,Female,Once or twice a month,226,12.3%
+IC011Q01TA,Frequency of use at school: <Chatting on line> at school.,Female,Once or twice a week,333,18.1%
+IC011Q01TA,Frequency of use at school: <Chatting on line> at school.,Female,Almost every day,352,19.2%
+IC011Q01TA,Frequency of use at school: <Chatting on line> at school.,Female,Every day,279,15.2%
+IC011Q01TA,Frequency of use at school: <Chatting on line> at school.,Male,Never or hardly ever,741,41.3%
+IC011Q01TA,Frequency of use at school: <Chatting on line> at school.,Male,Once or twice a month,210,11.7%
+IC011Q01TA,Frequency of use at school: <Chatting on line> at school.,Male,Once or twice a week,336,18.7%
+IC011Q01TA,Frequency of use at school: <Chatting on line> at school.,Male,Almost every day,296,16.5%
+IC011Q01TA,Frequency of use at school: <Chatting on line> at school.,Male,Every day,213,11.9%
+IC011Q02TA,Frequency of use at school: Using email at school.,Female,Never or hardly ever,305,16.8%
+IC011Q02TA,Frequency of use at school: Using email at school.,Female,Once or twice a month,395,21.8%
+IC011Q02TA,Frequency of use at school: Using email at school.,Female,Once or twice a week,585,32.2%
+IC011Q02TA,Frequency of use at school: Using email at school.,Female,Almost every day,339,18.7%
+IC011Q02TA,Frequency of use at school: Using email at school.,Female,Every day,191,10.5%
+IC011Q02TA,Frequency of use at school: Using email at school.,Male,Never or hardly ever,492,27.7%
+IC011Q02TA,Frequency of use at school: Using email at school.,Male,Once or twice a month,371,20.9%
+IC011Q02TA,Frequency of use at school: Using email at school.,Male,Once or twice a week,511,28.8%
+IC011Q02TA,Frequency of use at school: Using email at school.,Male,Almost every day,255,14.4%
+IC011Q02TA,Frequency of use at school: Using email at school.,Male,Every day,147,8.3%
+IC011Q03TA,Frequency of use at school: Browsing the Internet for schoolwork.,Female,Never or hardly ever,169,9.3%
+IC011Q03TA,Frequency of use at school: Browsing the Internet for schoolwork.,Female,Once or twice a month,279,15.4%
+IC011Q03TA,Frequency of use at school: Browsing the Internet for schoolwork.,Female,Once or twice a week,643,35.6%
+IC011Q03TA,Frequency of use at school: Browsing the Internet for schoolwork.,Female,Almost every day,479,26.5%
+IC011Q03TA,Frequency of use at school: Browsing the Internet for schoolwork.,Female,Every day,238,13.2%
+IC011Q03TA,Frequency of use at school: Browsing the Internet for schoolwork.,Male,Never or hardly ever,280,15.8%
+IC011Q03TA,Frequency of use at school: Browsing the Internet for schoolwork.,Male,Once or twice a month,277,15.6%
+IC011Q03TA,Frequency of use at school: Browsing the Internet for schoolwork.,Male,Once or twice a week,624,35.2%
+IC011Q03TA,Frequency of use at school: Browsing the Internet for schoolwork.,Male,Almost every day,393,22.2%
+IC011Q03TA,Frequency of use at school: Browsing the Internet for schoolwork.,Male,Every day,200,11.3%
+IC011Q04TA,Frequency of use at school: Download\upload\browse schools web (e.g. <intranet>).,Female,Never or hardly ever,803,44.4%
+IC011Q04TA,Frequency of use at school: Download\upload\browse schools web (e.g. <intranet>).,Female,Once or twice a month,388,21.4%
+IC011Q04TA,Frequency of use at school: Download\upload\browse schools web (e.g. <intranet>).,Female,Once or twice a week,324,17.9%
+IC011Q04TA,Frequency of use at school: Download\upload\browse schools web (e.g. <intranet>).,Female,Almost every day,185,10.2%
+IC011Q04TA,Frequency of use at school: Download\upload\browse schools web (e.g. <intranet>).,Female,Every day,109,6.0%
+IC011Q04TA,Frequency of use at school: Download\upload\browse schools web (e.g. <intranet>).,Male,Never or hardly ever,756,42.5%
+IC011Q04TA,Frequency of use at school: Download\upload\browse schools web (e.g. <intranet>).,Male,Once or twice a month,341,19.2%
+IC011Q04TA,Frequency of use at school: Download\upload\browse schools web (e.g. <intranet>).,Male,Once or twice a week,371,20.9%
+IC011Q04TA,Frequency of use at school: Download\upload\browse schools web (e.g. <intranet>).,Male,Almost every day,196,11.0%
+IC011Q04TA,Frequency of use at school: Download\upload\browse schools web (e.g. <intranet>).,Male,Every day,115,6.5%
+IC011Q05TA,Frequency of use at school: Posting my work on the schools website.,Female,Never or hardly ever,1366,75.1%
+IC011Q05TA,Frequency of use at school: Posting my work on the schools website.,Female,Once or twice a month,186,10.2%
+IC011Q05TA,Frequency of use at school: Posting my work on the schools website.,Female,Once or twice a week,139,7.6%
+IC011Q05TA,Frequency of use at school: Posting my work on the schools website.,Female,Almost every day,80,4.4%
+IC011Q05TA,Frequency of use at school: Posting my work on the schools website.,Female,Every day,47,2.6%
+IC011Q05TA,Frequency of use at school: Posting my work on the schools website.,Male,Never or hardly ever,1173,66.1%
+IC011Q05TA,Frequency of use at school: Posting my work on the schools website.,Male,Once or twice a month,207,11.7%
+IC011Q05TA,Frequency of use at school: Posting my work on the schools website.,Male,Once or twice a week,229,12.9%
+IC011Q05TA,Frequency of use at school: Posting my work on the schools website.,Male,Almost every day,89,5.0%
+IC011Q05TA,Frequency of use at school: Posting my work on the schools website.,Male,Every day,77,4.3%
+IC011Q06TA,Frequency of use at school: Playing simulations at school.,Female,Never or hardly ever,1412,78.4%
+IC011Q06TA,Frequency of use at school: Playing simulations at school.,Female,Once or twice a month,186,10.3%
+IC011Q06TA,Frequency of use at school: Playing simulations at school.,Female,Once or twice a week,108,6.0%
+IC011Q06TA,Frequency of use at school: Playing simulations at school.,Female,Almost every day,55,3.1%
+IC011Q06TA,Frequency of use at school: Playing simulations at school.,Female,Every day,39,2.2%
+IC011Q06TA,Frequency of use at school: Playing simulations at school.,Male,Never or hardly ever,1129,63.8%
+IC011Q06TA,Frequency of use at school: Playing simulations at school.,Male,Once or twice a month,275,15.5%
+IC011Q06TA,Frequency of use at school: Playing simulations at school.,Male,Once or twice a week,200,11.3%
+IC011Q06TA,Frequency of use at school: Playing simulations at school.,Male,Almost every day,97,5.5%
+IC011Q06TA,Frequency of use at school: Playing simulations at school.,Male,Every day,69,3.9%
+IC011Q07TA,"Frequency of use at school: Practicing and drilling, foreign language learning or math.",Female,Never or hardly ever,1032,57.3%
+IC011Q07TA,"Frequency of use at school: Practicing and drilling, foreign language learning or math.",Female,Once or twice a month,343,19.1%
+IC011Q07TA,"Frequency of use at school: Practicing and drilling, foreign language learning or math.",Female,Once or twice a week,237,13.2%
+IC011Q07TA,"Frequency of use at school: Practicing and drilling, foreign language learning or math.",Female,Almost every day,119,6.6%
+IC011Q07TA,"Frequency of use at school: Practicing and drilling, foreign language learning or math.",Female,Every day,69,3.8%
+IC011Q07TA,"Frequency of use at school: Practicing and drilling, foreign language learning or math.",Male,Never or hardly ever,992,56.3%
+IC011Q07TA,"Frequency of use at school: Practicing and drilling, foreign language learning or math.",Male,Once or twice a month,275,15.6%
+IC011Q07TA,"Frequency of use at school: Practicing and drilling, foreign language learning or math.",Male,Once or twice a week,267,15.2%
+IC011Q07TA,"Frequency of use at school: Practicing and drilling, foreign language learning or math.",Male,Almost every day,147,8.3%
+IC011Q07TA,"Frequency of use at school: Practicing and drilling, foreign language learning or math.",Male,Every day,81,4.6%
+IC011Q08TA,Frequency of use at school: Doing homework on a school computer.,Female,Never or hardly ever,449,24.9%
+IC011Q08TA,Frequency of use at school: Doing homework on a school computer.,Female,Once or twice a month,571,31.6%
+IC011Q08TA,Frequency of use at school: Doing homework on a school computer.,Female,Once or twice a week,436,24.2%
+IC011Q08TA,Frequency of use at school: Doing homework on a school computer.,Female,Almost every day,241,13.4%
+IC011Q08TA,Frequency of use at school: Doing homework on a school computer.,Female,Every day,108,6.0%
+IC011Q08TA,Frequency of use at school: Doing homework on a school computer.,Male,Never or hardly ever,516,29.2%
+IC011Q08TA,Frequency of use at school: Doing homework on a school computer.,Male,Once or twice a month,487,27.6%
+IC011Q08TA,Frequency of use at school: Doing homework on a school computer.,Male,Once or twice a week,421,23.8%
+IC011Q08TA,Frequency of use at school: Doing homework on a school computer.,Male,Almost every day,227,12.9%
+IC011Q08TA,Frequency of use at school: Doing homework on a school computer.,Male,Every day,115,6.5%
+IC011Q09TA,Frequency of use at school: Using school computers for group work and communication with other students.,Female,Never or hardly ever,601,33.2%
+IC011Q09TA,Frequency of use at school: Using school computers for group work and communication with other students.,Female,Once or twice a month,575,31.8%
+IC011Q09TA,Frequency of use at school: Using school computers for group work and communication with other students.,Female,Once or twice a week,380,21.0%
+IC011Q09TA,Frequency of use at school: Using school computers for group work and communication with other students.,Female,Almost every day,163,9.0%
+IC011Q09TA,Frequency of use at school: Using school computers for group work and communication with other students.,Female,Every day,91,5.0%
+IC011Q09TA,Frequency of use at school: Using school computers for group work and communication with other students.,Male,Never or hardly ever,669,37.8%
+IC011Q09TA,Frequency of use at school: Using school computers for group work and communication with other students.,Male,Once or twice a month,443,25.1%
+IC011Q09TA,Frequency of use at school: Using school computers for group work and communication with other students.,Male,Once or twice a week,369,20.9%
+IC011Q09TA,Frequency of use at school: Using school computers for group work and communication with other students.,Male,Almost every day,176,10.0%
+IC011Q09TA,Frequency of use at school: Using school computers for group work and communication with other students.,Male,Every day,111,6.3%
+IC013Q01NA,I forget about time when I'm using digital devices.,Female,Strongly disagree,74,4.1%
+IC013Q01NA,I forget about time when I'm using digital devices.,Female,Disagree,459,25.3%
+IC013Q01NA,I forget about time when I'm using digital devices.,Female,Agree,918,50.6%
+IC013Q01NA,I forget about time when I'm using digital devices.,Female,Strongly agree,364,20.1%
+IC013Q01NA,I forget about time when I'm using digital devices.,Male,Strongly disagree,129,7.3%
+IC013Q01NA,I forget about time when I'm using digital devices.,Male,Disagree,505,28.5%
+IC013Q01NA,I forget about time when I'm using digital devices.,Male,Agree,838,47.3%
+IC013Q01NA,I forget about time when I'm using digital devices.,Male,Strongly agree,298,16.8%
+IC013Q04NA,"The Internet is a great resource for obtaining information I am interested in (e.g. news, sports, dictionary).",Female,Strongly disagree,26,1.4%
+IC013Q04NA,"The Internet is a great resource for obtaining information I am interested in (e.g. news, sports, dictionary).",Female,Disagree,81,4.5%
+IC013Q04NA,"The Internet is a great resource for obtaining information I am interested in (e.g. news, sports, dictionary).",Female,Agree,1018,56.5%
+IC013Q04NA,"The Internet is a great resource for obtaining information I am interested in (e.g. news, sports, dictionary).",Female,Strongly agree,678,37.6%
+IC013Q04NA,"The Internet is a great resource for obtaining information I am interested in (e.g. news, sports, dictionary).",Male,Strongly disagree,44,2.5%
+IC013Q04NA,"The Internet is a great resource for obtaining information I am interested in (e.g. news, sports, dictionary).",Male,Disagree,103,5.8%
+IC013Q04NA,"The Internet is a great resource for obtaining information I am interested in (e.g. news, sports, dictionary).",Male,Agree,883,50.0%
+IC013Q04NA,"The Internet is a great resource for obtaining information I am interested in (e.g. news, sports, dictionary).",Male,Strongly agree,737,41.7%
+IC013Q05NA,It is very useful to have Social Networks on the Internet.,Female,Strongly disagree,38,2.1%
+IC013Q05NA,It is very useful to have Social Networks on the Internet.,Female,Disagree,117,6.5%
+IC013Q05NA,It is very useful to have Social Networks on the Internet.,Female,Agree,1017,56.5%
+IC013Q05NA,It is very useful to have Social Networks on the Internet.,Female,Strongly agree,627,34.9%
+IC013Q05NA,It is very useful to have Social Networks on the Internet.,Male,Strongly disagree,59,3.4%
+IC013Q05NA,It is very useful to have Social Networks on the Internet.,Male,Disagree,169,9.6%
+IC013Q05NA,It is very useful to have Social Networks on the Internet.,Male,Agree,958,54.4%
+IC013Q05NA,It is very useful to have Social Networks on the Internet.,Male,Strongly agree,574,32.6%
+IC013Q11NA,I am really excited discovering new digital devices or applications.,Female,Strongly disagree,78,4.4%
+IC013Q11NA,I am really excited discovering new digital devices or applications.,Female,Disagree,521,29.2%
+IC013Q11NA,I am really excited discovering new digital devices or applications.,Female,Agree,860,48.1%
+IC013Q11NA,I am really excited discovering new digital devices or applications.,Female,Strongly agree,328,18.4%
+IC013Q11NA,I am really excited discovering new digital devices or applications.,Male,Strongly disagree,67,3.8%
+IC013Q11NA,I am really excited discovering new digital devices or applications.,Male,Disagree,341,19.4%
+IC013Q11NA,I am really excited discovering new digital devices or applications.,Male,Agree,942,53.5%
+IC013Q11NA,I am really excited discovering new digital devices or applications.,Male,Strongly agree,410,23.3%
+IC013Q12NA,I really feel bad if no Internet connection is possible.,Female,Strongly disagree,135,7.5%
+IC013Q12NA,I really feel bad if no Internet connection is possible.,Female,Disagree,571,31.7%
+IC013Q12NA,I really feel bad if no Internet connection is possible.,Female,Agree,737,40.9%
+IC013Q12NA,I really feel bad if no Internet connection is possible.,Female,Strongly agree,359,19.9%
+IC013Q12NA,I really feel bad if no Internet connection is possible.,Male,Strongly disagree,159,9.0%
+IC013Q12NA,I really feel bad if no Internet connection is possible.,Male,Disagree,592,33.6%
+IC013Q12NA,I really feel bad if no Internet connection is possible.,Male,Agree,653,37.1%
+IC013Q12NA,I really feel bad if no Internet connection is possible.,Male,Strongly agree,356,20.2%
+IC013Q13NA,I like using digital devices.,Female,Strongly disagree,26,1.4%
+IC013Q13NA,I like using digital devices.,Female,Disagree,59,3.3%
+IC013Q13NA,I like using digital devices.,Female,Agree,1012,56.1%
+IC013Q13NA,I like using digital devices.,Female,Strongly agree,708,39.2%
+IC013Q13NA,I like using digital devices.,Male,Strongly disagree,29,1.6%
+IC013Q13NA,I like using digital devices.,Male,Disagree,78,4.4%
+IC013Q13NA,I like using digital devices.,Male,Agree,928,52.8%
+IC013Q13NA,I like using digital devices.,Male,Strongly agree,724,41.2%
+IC014Q03NA,I feel comfortable using digital devices that I am less familiar with.,Female,Strongly disagree,58,3.3%
+IC014Q03NA,I feel comfortable using digital devices that I am less familiar with.,Female,Disagree,432,24.2%
+IC014Q03NA,I feel comfortable using digital devices that I am less familiar with.,Female,Agree,1020,57.2%
+IC014Q03NA,I feel comfortable using digital devices that I am less familiar with.,Female,Strongly agree,274,15.4%
+IC014Q03NA,I feel comfortable using digital devices that I am less familiar with.,Male,Strongly disagree,56,3.2%
+IC014Q03NA,I feel comfortable using digital devices that I am less familiar with.,Male,Disagree,312,17.8%
+IC014Q03NA,I feel comfortable using digital devices that I am less familiar with.,Male,Agree,1012,57.7%
+IC014Q03NA,I feel comfortable using digital devices that I am less familiar with.,Male,Strongly agree,375,21.4%
+IC014Q04NA,"If my friends and relatives want to buy new digital devices or applications, I can give them advice.",Female,Strongly disagree,77,4.3%
+IC014Q04NA,"If my friends and relatives want to buy new digital devices or applications, I can give them advice.",Female,Disagree,352,19.8%
+IC014Q04NA,"If my friends and relatives want to buy new digital devices or applications, I can give them advice.",Female,Agree,1032,58.0%
+IC014Q04NA,"If my friends and relatives want to buy new digital devices or applications, I can give them advice.",Female,Strongly agree,319,17.9%
+IC014Q04NA,"If my friends and relatives want to buy new digital devices or applications, I can give them advice.",Male,Strongly disagree,53,3.0%
+IC014Q04NA,"If my friends and relatives want to buy new digital devices or applications, I can give them advice.",Male,Disagree,256,14.6%
+IC014Q04NA,"If my friends and relatives want to buy new digital devices or applications, I can give them advice.",Male,Agree,1009,57.6%
+IC014Q04NA,"If my friends and relatives want to buy new digital devices or applications, I can give them advice.",Male,Strongly agree,434,24.8%
+IC014Q06NA,I feel comfortable using my digital devices at home.,Female,Strongly disagree,16,0.9%
+IC014Q06NA,I feel comfortable using my digital devices at home.,Female,Disagree,39,2.2%
+IC014Q06NA,I feel comfortable using my digital devices at home.,Female,Agree,876,49.3%
+IC014Q06NA,I feel comfortable using my digital devices at home.,Female,Strongly agree,846,47.6%
+IC014Q06NA,I feel comfortable using my digital devices at home.,Male,Strongly disagree,29,1.7%
+IC014Q06NA,I feel comfortable using my digital devices at home.,Male,Disagree,63,3.6%
+IC014Q06NA,I feel comfortable using my digital devices at home.,Male,Agree,821,47.0%
+IC014Q06NA,I feel comfortable using my digital devices at home.,Male,Strongly agree,833,47.7%
+IC014Q08NA,"When I come across problems with digital devices, I think I can solve them.",Female,Strongly disagree,49,2.8%
+IC014Q08NA,"When I come across problems with digital devices, I think I can solve them.",Female,Disagree,316,17.8%
+IC014Q08NA,"When I come across problems with digital devices, I think I can solve them.",Female,Agree,1051,59.1%
+IC014Q08NA,"When I come across problems with digital devices, I think I can solve them.",Female,Strongly agree,361,20.3%
+IC014Q08NA,"When I come across problems with digital devices, I think I can solve them.",Male,Strongly disagree,41,2.4%
+IC014Q08NA,"When I come across problems with digital devices, I think I can solve them.",Male,Disagree,170,9.8%
+IC014Q08NA,"When I come across problems with digital devices, I think I can solve them.",Male,Agree,999,57.3%
+IC014Q08NA,"When I come across problems with digital devices, I think I can solve them.",Male,Strongly agree,533,30.6%
+IC014Q09NA,"If my friends and relatives have a problem with digital devices, I can help them.",Female,Strongly disagree,82,4.6%
+IC014Q09NA,"If my friends and relatives have a problem with digital devices, I can help them.",Female,Disagree,324,18.3%
+IC014Q09NA,"If my friends and relatives have a problem with digital devices, I can help them.",Female,Agree,1022,57.6%
+IC014Q09NA,"If my friends and relatives have a problem with digital devices, I can help them.",Female,Strongly agree,345,19.5%
+IC014Q09NA,"If my friends and relatives have a problem with digital devices, I can help them.",Male,Strongly disagree,54,3.1%
+IC014Q09NA,"If my friends and relatives have a problem with digital devices, I can help them.",Male,Disagree,239,13.8%
+IC014Q09NA,"If my friends and relatives have a problem with digital devices, I can help them.",Male,Agree,988,57.1%
+IC014Q09NA,"If my friends and relatives have a problem with digital devices, I can help them.",Male,Strongly agree,450,26.0%
+IC015Q02NA,"If I need new software, I install it by myself.",Female,Strongly disagree,191,10.8%
+IC015Q02NA,"If I need new software, I install it by myself.",Female,Disagree,545,30.8%
+IC015Q02NA,"If I need new software, I install it by myself.",Female,Agree,812,45.8%
+IC015Q02NA,"If I need new software, I install it by myself.",Female,Strongly agree,223,12.6%
+IC015Q02NA,"If I need new software, I install it by myself.",Male,Strongly disagree,96,5.5%
+IC015Q02NA,"If I need new software, I install it by myself.",Male,Disagree,285,16.2%
+IC015Q02NA,"If I need new software, I install it by myself.",Male,Agree,849,48.3%
+IC015Q02NA,"If I need new software, I install it by myself.",Male,Strongly agree,526,30.0%
+IC015Q03NA,I read information about digital devices to be independent.,Female,Strongly disagree,209,11.9%
+IC015Q03NA,I read information about digital devices to be independent.,Female,Disagree,688,39.1%
+IC015Q03NA,I read information about digital devices to be independent.,Female,Agree,726,41.2%
+IC015Q03NA,I read information about digital devices to be independent.,Female,Strongly agree,138,7.8%
+IC015Q03NA,I read information about digital devices to be independent.,Male,Strongly disagree,101,5.8%
+IC015Q03NA,I read information about digital devices to be independent.,Male,Disagree,471,27.0%
+IC015Q03NA,I read information about digital devices to be independent.,Male,Agree,853,48.9%
+IC015Q03NA,I read information about digital devices to be independent.,Male,Strongly agree,319,18.3%
+IC015Q05NA,I use digital devices as I want to use them.,Female,Strongly disagree,49,2.8%
+IC015Q05NA,I use digital devices as I want to use them.,Female,Disagree,143,8.1%
+IC015Q05NA,I use digital devices as I want to use them.,Female,Agree,1115,63.3%
+IC015Q05NA,I use digital devices as I want to use them.,Female,Strongly agree,455,25.8%
+IC015Q05NA,I use digital devices as I want to use them.,Male,Strongly disagree,42,2.4%
+IC015Q05NA,I use digital devices as I want to use them.,Male,Disagree,119,6.8%
+IC015Q05NA,I use digital devices as I want to use them.,Male,Agree,981,56.2%
+IC015Q05NA,I use digital devices as I want to use them.,Male,Strongly agree,603,34.6%
+IC015Q07NA,If I have a problem with digital devices I start to solve it on my own.,Female,Strongly disagree,94,5.3%
+IC015Q07NA,If I have a problem with digital devices I start to solve it on my own.,Female,Disagree,359,20.4%
+IC015Q07NA,If I have a problem with digital devices I start to solve it on my own.,Female,Agree,1026,58.2%
+IC015Q07NA,If I have a problem with digital devices I start to solve it on my own.,Female,Strongly agree,284,16.1%
+IC015Q07NA,If I have a problem with digital devices I start to solve it on my own.,Male,Strongly disagree,57,3.3%
+IC015Q07NA,If I have a problem with digital devices I start to solve it on my own.,Male,Disagree,202,11.6%
+IC015Q07NA,If I have a problem with digital devices I start to solve it on my own.,Male,Agree,1014,58.1%
+IC015Q07NA,If I have a problem with digital devices I start to solve it on my own.,Male,Strongly agree,472,27.0%
+IC015Q09NA,"If I need a new application, I choose it by myself.",Female,Strongly disagree,71,4.0%
+IC015Q09NA,"If I need a new application, I choose it by myself.",Female,Disagree,285,16.2%
+IC015Q09NA,"If I need a new application, I choose it by myself.",Female,Agree,1018,57.7%
+IC015Q09NA,"If I need a new application, I choose it by myself.",Female,Strongly agree,389,22.1%
+IC015Q09NA,"If I need a new application, I choose it by myself.",Male,Strongly disagree,44,2.5%
+IC015Q09NA,"If I need a new application, I choose it by myself.",Male,Disagree,143,8.2%
+IC015Q09NA,"If I need a new application, I choose it by myself.",Male,Agree,982,56.6%
+IC015Q09NA,"If I need a new application, I choose it by myself.",Male,Strongly agree,566,32.6%
+IC016Q02NA,I like to exchange solutions to problems with digital devices with others on the Internet.,Female,Strongly disagree,289,16.6%
+IC016Q02NA,I like to exchange solutions to problems with digital devices with others on the Internet.,Female,Disagree,704,40.5%
+IC016Q02NA,I like to exchange solutions to problems with digital devices with others on the Internet.,Female,Agree,642,36.9%
+IC016Q02NA,I like to exchange solutions to problems with digital devices with others on the Internet.,Female,Strongly agree,104,6.0%
+IC016Q02NA,I like to exchange solutions to problems with digital devices with others on the Internet.,Male,Strongly disagree,186,10.8%
+IC016Q02NA,I like to exchange solutions to problems with digital devices with others on the Internet.,Male,Disagree,566,32.7%
+IC016Q02NA,I like to exchange solutions to problems with digital devices with others on the Internet.,Male,Agree,793,45.8%
+IC016Q02NA,I like to exchange solutions to problems with digital devices with others on the Internet.,Male,Strongly agree,185,10.7%
+IC016Q04NA,I like to meet friends and play computer and video games with them.,Female,Strongly disagree,515,29.7%
+IC016Q04NA,I like to meet friends and play computer and video games with them.,Female,Disagree,644,37.2%
+IC016Q04NA,I like to meet friends and play computer and video games with them.,Female,Agree,458,26.4%
+IC016Q04NA,I like to meet friends and play computer and video games with them.,Female,Strongly agree,115,6.6%
+IC016Q04NA,I like to meet friends and play computer and video games with them.,Male,Strongly disagree,166,9.6%
+IC016Q04NA,I like to meet friends and play computer and video games with them.,Male,Disagree,276,16.0%
+IC016Q04NA,I like to meet friends and play computer and video games with them.,Male,Agree,800,46.3%
+IC016Q04NA,I like to meet friends and play computer and video games with them.,Male,Strongly agree,484,28.0%
+IC016Q05NA,I like to share information about digital devices with my friends.,Female,Strongly disagree,232,13.3%
+IC016Q05NA,I like to share information about digital devices with my friends.,Female,Disagree,627,36.1%
+IC016Q05NA,I like to share information about digital devices with my friends.,Female,Agree,766,44.0%
+IC016Q05NA,I like to share information about digital devices with my friends.,Female,Strongly agree,114,6.6%
+IC016Q05NA,I like to share information about digital devices with my friends.,Male,Strongly disagree,132,7.7%
+IC016Q05NA,I like to share information about digital devices with my friends.,Male,Disagree,452,26.2%
+IC016Q05NA,I like to share information about digital devices with my friends.,Male,Agree,925,53.7%
+IC016Q05NA,I like to share information about digital devices with my friends.,Male,Strongly agree,214,12.4%
+IC016Q07NA,I learn a lot about digital media by discussing with my friends and relatives.,Female,Strongly disagree,190,10.9%
+IC016Q07NA,I learn a lot about digital media by discussing with my friends and relatives.,Female,Disagree,522,30.1%
+IC016Q07NA,I learn a lot about digital media by discussing with my friends and relatives.,Female,Agree,875,50.4%
+IC016Q07NA,I learn a lot about digital media by discussing with my friends and relatives.,Female,Strongly agree,150,8.6%
+IC016Q07NA,I learn a lot about digital media by discussing with my friends and relatives.,Male,Strongly disagree,138,8.0%
+IC016Q07NA,I learn a lot about digital media by discussing with my friends and relatives.,Male,Disagree,389,22.6%
+IC016Q07NA,I learn a lot about digital media by discussing with my friends and relatives.,Male,Agree,956,55.5%
+IC016Q07NA,I learn a lot about digital media by discussing with my friends and relatives.,Male,Strongly agree,241,14.0%
